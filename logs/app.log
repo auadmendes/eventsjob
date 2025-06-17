@@ -1,0 +1,194 @@
+2025-06-16 14:34:29,478 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 14:35:29,507 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 14:35:29,508 - event_scraper - INFO - Hi, it worked! The scrape_and_save_events function was called at Mon Jun 16 14:35:29 2025
+2025-06-16 14:35:29,510 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 14:36:29,543 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 14:36:29,545 - event_scraper - INFO - Hi, it worked! The scrape_and_save_events function was called at Mon Jun 16 14:36:29 2025
+2025-06-16 14:36:29,546 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 14:37:29,588 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 14:37:29,590 - event_scraper - INFO - Hi, it worked! The scrape_and_save_events function was called at Mon Jun 16 14:37:29 2025
+2025-06-16 14:37:29,591 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 14:38:29,622 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 14:38:29,622 - event_scraper - INFO - Hi, it worked! The scrape_and_save_events function was called at Mon Jun 16 14:38:29 2025
+2025-06-16 14:38:29,624 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 14:38:44,907 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-16 20:32:13,742 - event_scraper - ERROR - Failed to fetch page: HTTPSConnectionPool(host='www.sympla.com.br', port=443): Max retries exceeded with url: /eventos/vitoria-es/mais-vistos/entretenimento-dia?ordem=start-date (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+2025-06-16 20:32:55,845 - event_scraper - ERROR - Failed to fetch page: HTTPSConnectionPool(host='www.sympla.com.br', port=443): Max retries exceeded with url: /eventos/vitoria-es/mais-vistos/entretenimento-dia?ordem=start-date (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+2025-06-16 20:33:36,537 - event_scraper - INFO - Event: Pagodaço - Di Propósito
+2025-06-16 20:33:36,547 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,547 - event_scraper - INFO - Event: Bailão Nerd - Edição Vila Velha/ES
+2025-06-16 20:33:36,559 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,560 - event_scraper - INFO - Event: Rock dos Gêmeos
+2025-06-16 20:33:36,578 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,580 - event_scraper - INFO - Event: FESTIVAL CASA CORAIS (10# Edição)
+2025-06-16 20:33:36,599 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,600 - event_scraper - INFO - Event: ARRAIÁ DO BURBURINHO - ALVORADA
+2025-06-16 20:33:36,615 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,616 - event_scraper - INFO - Event: Bailão Nerd - Edição Linhares/ES
+2025-06-16 20:33:36,633 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,637 - event_scraper - INFO - Event: Medieval ES 4ª Edição - HERÓIS E DRAGÕES
+2025-06-16 20:33:36,657 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,658 - event_scraper - INFO - Event: Arraiá do Rock
+2025-06-16 20:33:36,670 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,671 - event_scraper - INFO - Event: Orquestra Camerata Sesi - Temporada Pop: Concerto Junino
+2025-06-16 20:33:36,680 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,681 - event_scraper - INFO - Event: ESQUENTA DE ITAÚNAS do FORROZADA BOA - Vitória ES
+2025-06-16 20:33:36,690 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,691 - event_scraper - INFO - Event: Noite sertaneja
+2025-06-16 20:33:36,696 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,697 - event_scraper - INFO - Event: Bunker Fest Rock
+2025-06-16 20:33:36,705 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,706 - event_scraper - INFO - Event: REVOLUTION 2025
+2025-06-16 20:33:36,711 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,712 - event_scraper - INFO - Event: Cover Girl - Burlesque Edition
+2025-06-16 20:33:36,715 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,715 - event_scraper - INFO - Event: LOUDER NIGHT
+2025-06-16 20:33:36,724 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,725 - event_scraper - INFO - Event: Kaya Festival - 2 Edição
+2025-06-16 20:33:36,731 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,732 - event_scraper - INFO - Event: Alien - The Cycle of the Stars
+2025-06-16 20:33:36,741 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,742 - event_scraper - INFO - Event: Bloco da Teté
+2025-06-16 20:33:36,747 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,748 - event_scraper - INFO - Event: Fritos sem fronteiras 2° edição
+2025-06-16 20:33:36,757 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,758 - event_scraper - INFO - Event: Show Chico e Nina - Primaveras
+2025-06-16 20:33:36,768 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,769 - event_scraper - INFO - Event: CLÃ 8º Edição
+2025-06-16 20:33:36,779 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,780 - event_scraper - INFO - Event: ICELUCA CONVIDA
+2025-06-16 20:33:36,788 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,788 - event_scraper - INFO - Event: Ambronelli - Cadu Caruzo
+2025-06-16 20:33:36,794 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:33:36,795 - event_scraper - INFO - Event: Medusa Ink Fest
+2025-06-16 20:33:36,799 - event_scraper - INFO - ------------------------------------------------------------
+2025-06-16 20:56:17,352 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 20:57:17,388 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 20:57:18,452 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 20:57:39,476 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-16 21:15:03,349 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 21:16:03,384 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:16:06,237 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:17:06,272 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:17:07,616 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:18:07,652 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:18:08,772 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:18:16,489 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-16 21:24:18,208 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 21:25:18,242 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:25:23,465 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:26:23,498 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:26:26,462 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:27:26,495 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:27:29,628 - event_scraper_log - INFO - Event scraping job completed successfully.
+2025-06-16 21:27:36,779 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-16 21:47:10,120 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 21:48:10,157 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:48:14,153 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-16 21:48:17,106 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-16 21:49:14,815 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-16 21:55:26,942 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-16 21:56:26,978 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:56:31,293 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-16 21:56:34,694 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-16 21:57:34,727 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-16 21:57:38,200 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-16 21:57:41,727 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-16 21:58:19,550 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 08:36:34,332 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 08:37:34,364 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 08:37:39,323 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-17 08:37:42,277 - event_scraper_log - ERROR - Error during event scraping job: cannot access local variable 'event_cards' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 15, in run_event_scraping_job
+    scrape_and_save_patrick_events()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 95, in scrape_and_save_patrick_events
+    if not event_cards:
+           ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'event_cards' where it is not associated with a value
+2025-06-17 08:38:03,550 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 08:40:06,271 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 08:41:06,306 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 08:41:08,777 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-17 08:42:08,807 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 08:42:10,628 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-17 08:42:51,986 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 08:47:08,445 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 08:48:08,480 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 08:48:11,376 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 7, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.blueticket.com.br/evento/38040" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.blueticket.com.br/evento/38040'}, 'op': {'title': 'Liga Joe – Flash Back anos 70, 80 e 90', 'location': 'Spaço Patrick Ribeiro', 'date': None, 'link': 'https://www.blueticket.com.br/evento/38040', 'image': 'https://patrickribeiro.com.br/wp-content/uploads/2025/06/17OUT-LIGA-JOE.png', '_id': ObjectId('685155fbd07cc5a9987d00ec')}}], 'writeConcernErrors': [], 'nInserted': 7, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 15, in run_event_scraping_job
+    scrape_and_save_patrick_events()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 139, in scrape_and_save_patrick_events
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 7, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.blueticket.com.br/evento/38040" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.blueticket.com.br/evento/38040'}, 'op': {'title': 'Liga Joe – Flash Back anos 70, 80 e 90', 'location': 'Spaço Patrick Ribeiro', 'date': None, 'link': 'https://www.blueticket.com.br/evento/38040', 'image': 'https://patrickribeiro.com.br/wp-content/uploads/2025/06/17OUT-LIGA-JOE.png', '_id': ObjectId('685155fbd07cc5a9987d00ec')}}], 'writeConcernErrors': [], 'nInserted': 7, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-17 08:48:32,122 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 08:52:22,950 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 08:53:22,987 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 08:53:26,764 - event_scraper_log - ERROR - Error during event scraping job: name 'events_collection' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 15, in run_event_scraping_job
+    scrape_and_save_patrick_events()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 105, in scrape_and_save_patrick_events
+    event["link"] for event in events_collection.find(
+                               ^^^^^^^^^^^^^^^^^
+NameError: name 'events_collection' is not defined
+2025-06-17 08:53:52,467 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 08:59:48,685 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 09:00:48,718 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 09:00:52,352 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-17 09:01:52,385 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 09:01:55,880 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-17 09:02:03,827 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 15:38:12,592 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 15:39:12,627 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 15:39:17,993 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-17 15:39:21,217 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 8, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.blueticket.com.br/evento/38040" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.blueticket.com.br/evento/38040'}, 'op': {'title': 'Liga Joe – Flash Back anos 70, 80 e 90', 'location': 'Espaço Patrick Ribeiro', 'date': None, 'link': 'https://www.blueticket.com.br/evento/38040', 'image': 'https://patrickribeiro.com.br/wp-content/uploads/2025/06/17OUT-LIGA-JOE.png', 'font': 'Espaço Patrick Ribeiro', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('6851b659b59055440a414a1f')}}], 'writeConcernErrors': [], 'nInserted': 8, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 16, in run_event_scraping_job
+    scrape_and_save_patrick_events()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 162, in scrape_and_save_patrick_events
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 8, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.blueticket.com.br/evento/38040" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.blueticket.com.br/evento/38040'}, 'op': {'title': 'Liga Joe – Flash Back anos 70, 80 e 90', 'location': 'Espaço Patrick Ribeiro', 'date': None, 'link': 'https://www.blueticket.com.br/evento/38040', 'image': 'https://patrickribeiro.com.br/wp-content/uploads/2025/06/17OUT-LIGA-JOE.png', 'font': 'Espaço Patrick Ribeiro', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('6851b659b59055440a414a1f')}}], 'writeConcernErrors': [], 'nInserted': 8, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-17 15:40:21,259 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 15:40:24,144 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-17 15:40:27,708 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-17 15:40:36,401 - event_scraper_log - INFO - Scheduler stopped by user.
