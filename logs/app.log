@@ -192,3 +192,69 @@ pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErro
 2025-06-17 15:40:24,144 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
 2025-06-17 15:40:27,708 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
 2025-06-17 15:40:36,401 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:06:51,491 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:07:51,527 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:07:52,414 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:08:18,636 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:10:40,101 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:11:40,140 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:11:40,982 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:12:41,078 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:12:41,964 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:13:42,000 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:13:43,023 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:14:23,788 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:14:31,364 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:15:31,392 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:15:32,404 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:16:32,468 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:16:33,546 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:17:33,582 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:17:34,473 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:18:34,505 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:18:35,505 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:18:41,800 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:19:43,886 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:20:44,017 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:20:44,924 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:21:45,802 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:21:46,743 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:22:46,780 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:22:47,714 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:23:20,308 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:26:21,071 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:26:59,110 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:27:40,409 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:28:06,571 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:29:03,831 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:29:42,089 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-17 16:29:47,704 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-17 16:30:47,733 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-17 16:30:53,238 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-17 16:31:16,818 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 10:09:44,811 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 10:10:44,868 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:10:44,870 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:10:44,871 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:10:48,394 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:11:48,430 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:11:48,432 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:11:48,433 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:11:50,274 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:12:50,310 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:12:50,312 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:12:50,313 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:12:52,523 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:13:52,581 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:13:52,583 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:13:52,585 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:13:54,878 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:14:54,922 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:14:54,924 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:14:54,925 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:14:57,020 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:15:57,051 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:15:57,053 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:15:57,055 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:15:59,116 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:16:07,065 - event_scraper_log - INFO - Scheduler stopped by user.
