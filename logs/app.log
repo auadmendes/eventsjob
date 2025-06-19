@@ -258,3 +258,249 @@ pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErro
 2025-06-18 10:15:57,055 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
 2025-06-18 10:15:59,116 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
 2025-06-18 10:16:07,065 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 10:23:39,587 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 10:24:39,620 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:24:39,621 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:24:39,622 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:24:41,258 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:24:45,582 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 10:25:45,614 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 10:25:45,615 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 10:25:45,616 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-18 10:25:47,165 - event_scraper_log - INFO - Event scraping SYMPLA Esportes job completed successfully.
+2025-06-18 10:25:50,268 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 10:25:56,220 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:30:42,444 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:31:42,479 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:31:43,012 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:32:43,049 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:32:43,589 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:33:43,630 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:33:44,468 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:33:47,464 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:39:24,130 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:40:24,280 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:40:24,818 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:40:33,252 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:43:44,999 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:44:45,035 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:44:45,635 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:44:53,719 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:47:02,578 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:48:02,615 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:48:03,090 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:49:03,123 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:49:03,604 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:49:21,290 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:54:51,900 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:55:51,935 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:55:51,937 - event_scraper_log - ERROR - Error during event scraping job: name 'Options' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 29, in run_event_scraping_job
+    scrape_mapa_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 609, in scrape_mapa_events
+    chrome_options = Options()
+                     ^^^^^^^
+NameError: name 'Options' is not defined
+2025-06-18 12:56:51,993 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:56:51,994 - event_scraper_log - ERROR - Error during event scraping job: name 'Options' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 29, in run_event_scraping_job
+    scrape_mapa_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 609, in scrape_mapa_events
+    chrome_options = Options()
+                     ^^^^^^^
+NameError: name 'Options' is not defined
+2025-06-18 12:57:12,547 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:57:22,595 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 12:58:22,633 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 12:58:40,234 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 12:59:34,271 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 12:59:47,531 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 13:00:47,564 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 13:00:56,806 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 13:01:01,101 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 13:09:02,208 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 13:10:02,248 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 13:10:17,651 - event_scraper_log - INFO - Event scraping SYMPLA Comédia job completed successfully.
+2025-06-18 13:10:51,206 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 15:44:24,991 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 15:45:25,035 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 15:45:39,087 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 4, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1409/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1409/'}, 'op': {'title': '25º FESTIVAL NACIONAL DE TEATRO DE GUAÇUÍ', 'location': 'Espaço cultural Gota, Pó e Poeira', 'date': '23 de junho às 17:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1409/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1409/file/979016/whatsapp-image-2025-05-29-at-10-26-36-fa914ca8e5101951959ddbf3259eecff.jpeg', 'font': 'Mapa Cultural ES', 'category': 'Teatro', 'UF': 'ES', '_id': ObjectId('6853095302962ce63347b96f')}}], 'writeConcernErrors': [], 'nInserted': 4, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 29, in run_event_scraping_job
+    scrape_mapa_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 669, in scrape_mapa_events
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 4, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1409/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1409/'}, 'op': {'title': '25º FESTIVAL NACIONAL DE TEATRO DE GUAÇUÍ', 'location': 'Espaço cultural Gota, Pó e Poeira', 'date': '23 de junho às 17:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1409/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1409/file/979016/whatsapp-image-2025-05-29-at-10-26-36-fa914ca8e5101951959ddbf3259eecff.jpeg', 'font': 'Mapa Cultural ES', 'category': 'Teatro', 'UF': 'ES', '_id': ObjectId('6853095302962ce63347b96f')}}], 'writeConcernErrors': [], 'nInserted': 4, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 15:46:39,137 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 15:46:50,006 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 2, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1302/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1302/'}, 'op': {'title': 'Encantarias - 1º Encontro de música intuitiva e integrativa do ES', 'location': 'Espaço Kabana Kebra Mar', 'date': '29 de junho às 09:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1302/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1302/file/941168/encantarias-post-para-instagram-76f066cfec9c5dc443681aa6158b9382.png', 'font': 'Mapa Cultural ES', 'category': 'Teatro', 'UF': 'ES', '_id': ObjectId('6853099902962ce63347b97f')}}], 'writeConcernErrors': [], 'nInserted': 2, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 29, in run_event_scraping_job
+    scrape_mapa_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 669, in scrape_mapa_events
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 2, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1302/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1302/'}, 'op': {'title': 'Encantarias - 1º Encontro de música intuitiva e integrativa do ES', 'location': 'Espaço Kabana Kebra Mar', 'date': '29 de junho às 09:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1302/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1302/file/941168/encantarias-post-para-instagram-76f066cfec9c5dc443681aa6158b9382.png', 'font': 'Mapa Cultural ES', 'category': 'Teatro', 'UF': 'ES', '_id': ObjectId('6853099902962ce63347b97f')}}], 'writeConcernErrors': [], 'nInserted': 2, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 15:47:50,047 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 15:48:00,457 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 2, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1403/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1403/'}, 'op': {'title': 'Roda de Boteco 2025', 'location': 'Shopping Vila Velha', 'date': '12 de julho às 15:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1403/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1403/file/975494/roda-07c74f7d441626e4e4c4584dc2b5bf21.png', 'font': 'Mapa Cultural ES', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('685309e002962ce63347b985')}}], 'writeConcernErrors': [], 'nInserted': 2, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 29, in run_event_scraping_job
+    scrape_mapa_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 669, in scrape_mapa_events
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 2, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://mapa.cultura.es.gov.br/evento/1403/" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://mapa.cultura.es.gov.br/evento/1403/'}, 'op': {'title': 'Roda de Boteco 2025', 'location': 'Shopping Vila Velha', 'date': '12 de julho às 15:00', 'link': 'https://mapa.cultura.es.gov.br/evento/1403/', 'image': 'https://mapa.cultura.es.gov.br/files/event/1403/file/975494/roda-07c74f7d441626e4e4c4584dc2b5bf21.png', 'font': 'Mapa Cultural ES', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('685309e002962ce63347b985')}}], 'writeConcernErrors': [], 'nInserted': 2, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 15:49:00,492 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 15:49:03,760 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:02:48,510 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:03:48,541 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:04:08,972 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 21:04:38,357 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:08:34,864 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:09:34,897 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:09:44,313 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 21:10:31,401 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:13:23,646 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:14:23,678 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:14:40,318 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 237, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385'}, 'op': {'title': 'Aula Filial Viva Velha: Viver significativamente, morrer com alegria', 'location': 'Espaço Marzen - Vila Velha , ES', 'date': '2025-07-26T10:00:00', 'link': 'https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385', 'image': 'https://images.sympla.com.br/6853180c30330-xs.jpg', 'font': 'Sympla', 'category': 'Cursos e Workshops', 'UF': 'ES', '_id': ObjectId('6853566f746bc8934d352306')}}], 'writeConcernErrors': [], 'nInserted': 237, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 13, in run_event_scraping_job
+    scrape_and_save_events_sympla() # Call your main scraping function
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 214, in scrape_and_save_events_sympla
+    save_events_bulk(all_events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 237, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385'}, 'op': {'title': 'Aula Filial Viva Velha: Viver significativamente, morrer com alegria', 'location': 'Espaço Marzen - Vila Velha , ES', 'date': '2025-07-26T10:00:00', 'link': 'https://www.sympla.com.br/evento/aula-filial-viva-velha-viver-significativamente-morrer-com-alegria/3004385', 'image': 'https://images.sympla.com.br/6853180c30330-xs.jpg', 'font': 'Sympla', 'category': 'Cursos e Workshops', 'UF': 'ES', '_id': ObjectId('6853566f746bc8934d352306')}}], 'writeConcernErrors': [], 'nInserted': 237, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 21:15:35,685 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:26:33,109 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:27:33,144 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:27:48,462 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 278, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventES.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689'}, 'op': {'title': 'Science Mapping para Doutorado, Mestrado, Pós, TCC, IC, JCR, Pesquisa, Inovação - Tipo 20 A', 'location': 'CCJE - UFES - Ed. VI, sala 618 - Vitória , ES', 'date': '2025-06-25T08:00:00', 'link': 'https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689', 'image': 'https://images.sympla.com.br/6841de123afa0-xs.jpg', 'font': 'Sympla', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('68535983509821333b07ed28')}}], 'writeConcernErrors': [], 'nInserted': 278, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 13, in run_event_scraping_job
+    scrape_and_save_events_sympla() # Call your main scraping function
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 213, in scrape_and_save_events_sympla
+    save_events_bulk(all_events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 278, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventES.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689'}, 'op': {'title': 'Science Mapping para Doutorado, Mestrado, Pós, TCC, IC, JCR, Pesquisa, Inovação - Tipo 20 A', 'location': 'CCJE - UFES - Ed. VI, sala 618 - Vitória , ES', 'date': '2025-06-25T08:00:00', 'link': 'https://www.sympla.com.br/evento/science-mapping-para-doutorado-mestrado-pos-tcc-ic-jcr-pesquisa-inovacao-tipo-20-a/2988689', 'image': 'https://images.sympla.com.br/6841de123afa0-xs.jpg', 'font': 'Sympla', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('68535983509821333b07ed28')}}], 'writeConcernErrors': [], 'nInserted': 278, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 21:28:21,997 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:40:13,253 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:41:13,292 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:41:29,672 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 209, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventES.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972'}, 'op': {'title': 'Titela em "AÍ DENTU" no Corone Mall - Serra/ES', 'location': 'Corone Mall - Serra , ES', 'date': '2025-06-06T08:00:00', 'end_date': '2025-08-02T23:59:00', 'link': 'https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972', 'image': 'https://images.sympla.com.br/6841f7c9c25f3-xs.jpg', 'font': 'Sympla', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('68535cb8c2bcc3b24a12bba5')}}], 'writeConcernErrors': [], 'nInserted': 209, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 13, in run_event_scraping_job
+    scrape_and_save_events_sympla() # Call your main scraping function
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 226, in scrape_and_save_events_sympla
+    save_events_bulk(all_events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 31, in save_events_bulk
+    events_collection.insert_many(new_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 209, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventES.events index: link_1 dup key: { link: "https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972'}, 'op': {'title': 'Titela em "AÍ DENTU" no Corone Mall - Serra/ES', 'location': 'Corone Mall - Serra , ES', 'date': '2025-06-06T08:00:00', 'end_date': '2025-08-02T23:59:00', 'link': 'https://www.sympla.com.br/evento/titela-em-ai-dentu-no-corone-mall-serra-es/2988972', 'image': 'https://images.sympla.com.br/6841f7c9c25f3-xs.jpg', 'font': 'Sympla', 'category': 'Outros', 'UF': 'ES', '_id': ObjectId('68535cb8c2bcc3b24a12bba5')}}], 'writeConcernErrors': [], 'nInserted': 209, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-18 21:41:31,665 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-18 21:51:50,442 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-18 21:52:50,477 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:53:00,702 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-18 21:54:00,733 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-18 21:54:01,404 - event_scraper_log - INFO - Scheduler stopped by user.

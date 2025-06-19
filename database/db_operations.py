@@ -2,6 +2,7 @@
 import os
 from pymongo import MongoClient
 from dotenv import load_dotenv
+from pymongo.errors import BulkWriteError
 
 load_dotenv()
 
@@ -23,12 +24,22 @@ def save_event(event_data):
 def save_events_bulk(events):
     """Insert only new events based on unique 'link' field."""
     new_events = []
+    existing_links = set(
+        events_collection.find(
+            {"link": {"$in": [e["link"] for e in events]}},
+            {"link": 1, "_id": 0}
+        ).distinct("link")
+    )
+
     for event in events:
-        if not events_collection.find_one({"link": event["link"]}):
+        if event["link"] not in existing_links:
             new_events.append(event)
 
     if new_events:
-        events_collection.insert_many(new_events)
-        print(f"✅ Inserted {len(new_events)} new event(s).")
+        try:
+            events_collection.insert_many(new_events, ordered=False)
+            print(f"✅ Inserted {len(new_events)} new event(s).")
+        except BulkWriteError as bwe:
+            print(f"⚠️ Duplicate(s) skipped during insert_many: {bwe.details}")
     else:
         print("🔁 No new events to insert.")

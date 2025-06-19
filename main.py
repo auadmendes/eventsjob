@@ -1,7 +1,7 @@
 # main.py
 import schedule
 import time
-from scraper.event_scraper import scrape_and_save_events, scrape_and_save_patrick_events, scrape_esportivo_events_sympla # Assuming you move the core scraping logic here
+from scraper.event_scraper import scrape_and_save_events_sympla, scrape_and_save_patrick_events, scrape_mapa_events, scrape_comedy_events, scrape_esportivo_events_sympla # Assuming you move the core scraping logic here
 from scraper.utils import setup_logger # Assuming you have a logging setup
 
 # Setup logging (e.g., to file or console)
@@ -10,16 +10,24 @@ logger = setup_logger('event_scraper_log', 'logs/app.log')
 def run_event_scraping_job():
     logger.info("Starting scheduled event scraping job...")
     try:
-        #scrape_and_save_events() # Call your main scraping function
+        scrape_and_save_events_sympla() # Call your main scraping function
         logger.info("Event scraping SYMPLA job completed successfully.")
         # enviar email /whatsApp ou sms pra mim mesmo
         
-        #scrape_and_save_patrick_events()
-        logger.info("Event scraping PATRICK RIBEIRO job completed successfully.")
-        # enviar email /whatsApp ou sms pra mim mesmo
+        # #scrape_and_save_patrick_events()
+        # logger.info("Event scraping PATRICK RIBEIRO job completed successfully.")
+        # # enviar email /whatsApp ou sms pra mim mesmo
 
-        scrape_esportivo_events_sympla()
-        logger.info("Event scraping SYMPLA Esportes job completed successfully.")
+        # scrape_esportivo_events_sympla()
+        # logger.info("Event scraping SYMPLA Esportes job completed successfully.")
+        # # enviar email /whatsApp ou sms pra mim mesmo
+
+        # scrape_comedy_events()
+        # logger.info("Event scraping SYMPLA Comédia job completed successfully.")
+        # # enviar email /whatsApp ou sms pra mim mesmo
+
+        # scrape_mapa_events()
+        # logger.info("Event scraping MAPA CULTURAL job completed successfully.")
         # enviar email /whatsApp ou sms pra mim mesmo
 
         # scrape_beacons_with_selenium()
