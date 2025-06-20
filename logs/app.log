@@ -504,3 +504,688 @@ pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErro
 2025-06-18 21:53:00,702 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
 2025-06-18 21:54:00,733 - event_scraper_log - INFO - Starting scheduled event scraping job...
 2025-06-18 21:54:01,404 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 09:33:52,084 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 09:34:52,170 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:35:09,195 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-19 09:35:12,372 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 09:35:16,956 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 09:35:31,837 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 09:36:31,875 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:36:38,494 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-06-19 09:36:41,054 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 09:36:56,345 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 09:37:50,784 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 09:38:50,831 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:38:53,419 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 09:39:53,452 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:39:56,949 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 09:40:18,159 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 09:40:30,311 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 09:41:30,345 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:41:34,115 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 09:42:34,148 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 09:42:37,320 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 13:06:40,738 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 13:07:40,772 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 13:07:43,311 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-06-19 13:07:54,578 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-06-19 13:08:04,029 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 13:11:46,737 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 13:12:46,777 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 13:12:58,209 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-06-19 13:13:48,368 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 13:42:32,331 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 13:43:32,364 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 13:43:40,988 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-19 13:43:55,992 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:25:56,163 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:26:56,197 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:26:56,288 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 14:27:13,137 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:27:24,136 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:28:24,171 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:28:24,299 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 14:28:32,821 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:31:23,719 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:32:23,761 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:32:25,199 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 14:32:36,609 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:36:21,480 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:37:21,515 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:37:23,870 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 14:37:27,975 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:48:20,838 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:49:20,918 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:49:27,594 - event_scraper_log - ERROR - Error during event scraping job: Could not reach host. Are you offline?
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\http.py", line 32, in get
+    resp = requests.get(
+        url=url, verify=self._ssl_verify, stream=True, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 784, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\driver_cache.py", line 107, in find_driver
+    driver_version = self.get_cache_key_driver_version(driver)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\driver_cache.py", line 154, in get_cache_key_driver_version
+    return driver.get_driver_version_to_download()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\driver.py", line 48, in get_driver_version_to_download
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\drivers\chrome.py", line 59, in get_latest_release_version
+    response = self._http_client.get(url)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\webdriver_manager\core\http.py", line 35, in get
+    raise exceptions.ConnectionError(f"Could not reach host. Are you offline?")
+requests.exceptions.ConnectionError: Could not reach host. Are you offline?
+2025-06-19 14:49:46,522 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:51:05,654 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:52:05,696 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:52:28,472 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 14:52:51,705 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 14:54:48,806 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 14:55:48,849 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:55:48,851 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 14:56:48,925 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:56:48,927 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 14:57:48,976 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:57:48,979 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 14:58:49,020 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:58:49,022 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 14:59:49,069 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 14:59:49,071 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:00:49,136 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:00:49,137 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:01:49,187 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:01:49,192 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:02:49,264 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:02:49,272 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/path/to/your/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 794, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:03:21,198 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 15:03:43,915 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 15:04:43,968 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:04:43,973 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 796, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:05:16,633 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 15:06:15,426 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 15:07:15,466 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:07:15,473 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 37, in run_event_scraping_job
+    scrape_zig_tickets()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 796, in scrape_zig_tickets
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-19 15:07:23,230 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-19 15:09:16,691 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-19 15:10:16,723 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-19 15:11:39,983 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-06-19 15:11:42,651 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:12:44,991 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:13:45,028 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:13:57,628 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:14:03,867 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:17:31,983 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:18:32,020 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:18:37,440 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:18:55,725 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:28:34,616 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:29:06,418 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:29:25,334 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:30:25,364 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:30:31,344 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:31:31,381 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:31:37,386 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:32:08,309 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:32:15,681 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:33:15,724 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:33:21,753 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:33:37,187 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:35:36,018 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:36:36,049 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:36:47,541 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:36:57,846 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 10:48:22,807 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 10:49:22,839 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 10:49:29,446 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-06-20 10:50:10,283 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 11:12:46,395 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 11:13:46,438 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 11:13:46,537 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.es.senac.br', port=443): Max retries exceeded with url: /cursos?pagina=1&ordem=proximasturmas-desc&per_page=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.es.senac.br', port=443): Max retries exceeded with url: /cursos?pagina=1&ordem=proximasturmas-desc&per_page=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_senac_courses()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 898, in scrape_senac_courses
+    response = requests.get(COURSE_LIST_URL)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.es.senac.br', port=443): Max retries exceeded with url: /cursos?pagina=1&ordem=proximasturmas-desc&per_page=10 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+2025-06-20 11:14:16,391 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 11:17:21,969 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 11:18:22,005 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 11:18:31,728 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 11:19:07,445 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 11:21:09,957 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 11:22:09,992 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 11:22:53,744 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 11:22:56,857 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 12:22:41,233 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 12:23:41,271 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 12:24:27,109 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 12:24:30,628 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-20 13:20:15,800 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-20 13:21:15,848 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 13:22:19,450 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 13:23:19,485 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 13:24:27,704 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 13:25:27,740 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 13:26:34,181 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 13:27:34,229 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 13:28:32,898 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 13:29:32,969 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-20 13:30:33,528 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-20 13:30:54,602 - event_scraper_log - INFO - Scheduler stopped by user.
