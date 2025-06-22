@@ -815,8 +815,6 @@ def parse_date(date_str):
     except Exception:
         return None
 
-
-
 BASE_URL = "https://www.es.senac.br"
 COURSE_LIST_URL = f"{BASE_URL}/cursos"
 
@@ -923,3 +921,1122 @@ def scrape_senac_courses():
     finally:
         driver.quit()
         print("✅ Selenium browser closed.")
+
+STATIC_IMAGE = "https://s3.sa-east-1.amazonaws.com/el.com.br-gpp/portalinstitucional/desenvolvimento-el/78f5ef95-961d-4fd0-b839-740d04ed7328_Fam-lia-Lima--77--otimizado.jpg"
+FESTIVAL_TITLE = "XXIX FESTIVAL DE INVERNO + Domingos Martins"
+FESTIVAL_FONT = "Festival de Inverno ES"
+UF = "ES"
+URL = "https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa"
+
+def scrape_festival_de_inverno():
+    print("⏳ Fetching Festival de Inverno page...")
+    try:
+        response = requests.get(URL, timeout=10, verify=False)  # SSL bypass
+        response.raise_for_status()
+        html_content = response.text
+    except Exception as e:
+        print(f"❌ Failed to fetch page: {e}")
+        return []
+
+    print("🔍 Scraping Festival de Inverno content...")
+    soup = BeautifulSoup(html_content, "html.parser")
+    container = soup.select_one("div.container.py-5")
+
+    if not container:
+        print("❌ Festival container not found.")
+        return []
+
+    year = datetime.now().year
+    current_date = None
+    events = []
+
+    for tag in container.find_all(["strong", "br"]):
+        if tag.name == "strong":
+            date_match = re.search(r"(\d{2}/\d{2})", tag.text)
+            if date_match:
+                date_str = f"{date_match.group(1)}/{year}"
+                try:
+                    current_date = datetime.strptime(date_str, "%d/%m/%Y").isoformat()
+                    continue
+                except ValueError:
+                    pass
+
+            elif current_date:
+                time_match = re.match(r"(\d{1,2}h(?:\d{2})?)", tag.text.strip())
+                if time_match:
+                    time = time_match.group(1)
+                    performance = tag.next_sibling
+                    if performance and isinstance(performance, str):
+                        description = performance.strip(" –-:\n\t ")
+
+                        event = {
+                            "title": FESTIVAL_TITLE,
+                            "location": "Domingos Martins",
+                            "date": current_date,
+                            "link": URL,
+                            "image": STATIC_IMAGE,
+                            "font": FESTIVAL_FONT,
+                            "category": "Festival",
+                            "UF": UF,
+                            "description": f"{time} - {description}"
+                        }
+
+                        events.append(event)
+                        print(f"✅ Parsed: {event['description']} on {current_date}")
+
+    print(f"📦 Total Festival events: {len(events)}")
+
+    if events:
+        save_events_bulk(events)
+        print(f"✅ Saved {len(events)} Festival events to MongoDB.")
+    else:
+        print("⚠️ No valid events to save.")
+
+    return events
+   
+
+
+
+
+   # Domingos Martins
+   # https://lebillet.com.br/search?city=45&dateOf=2025-06-22&dateUntil=
+
+
+   # Cariacíca
+   # https://lebillet.com.br/search?city=29&dateOf=2025-06-22&dateUntil=
+
+   # Guaçuí
+   # https://lebillet.com.br/search?city=42&dateOf=2025-06-22&dateUntil=
+   
+   # Guarapari
+   # https://lebillet.com.br/search?city=30&dateOf=2025-06-22&dateUntil=
+
+   # Iconha 
+   # https://lebillet.com.br/search?city=69&dateOf=&dateUntil=
+
+   # Linjares
+   # https://lebillet.com.br/search?city=25&dateOf=&dateUntil=
+
+   # marataízes
+   # https://lebillet.com.br/search?city=80&dateOf=&dateUntil=
+
+   # Nova Venécia
+   # https://lebillet.com.br/search?city=111&dateOf=&dateUntil=
+
+   # Online
+   # https://lebillet.com.br/search?city=104&dateOf=&dateUntil=
+
+   # Online 2
+   # https://lebillet.com.br/search?city=28&dateOf=&dateUntil=
+
+   # Piúma
+   # https://lebillet.com.br/search?city=84&dateOf=&dateUntil=
+
+   # Praia da Costa
+   # https://lebillet.com.br/search?city=72&dateOf=&dateUntil=
+
+   # Santa Tereza
+   # https://lebillet.com.br/search?city=49&dateOf=&dateUntil=
+     
+   # São gabriel da Palha
+   # https://lebillet.com.br/search?city=91&dateOf=&dateUntil=
+
+   # São Mateus
+   # https://lebillet.com.br/search?city=76&dateOf=&dateUntil=
+
+   # Serra
+   # https://lebillet.com.br/search?city=32&dateOf=&dateUntil=
+
+   # Viana
+   # https://lebillet.com.br/search?city=114&dateOf=&dateUntil=
+
+   # Vila Velha
+   # https://lebillet.com.br/search?city=24&dateOf=&dateUntil=
+
+   # Vitória
+   # https://lebillet.com.br/search?city=20&dateOf=&dateUntil=
+
+   # 
+   # 
+
+
+
+def parse_domingos_martins_date(date_str):
+    """
+    Converts '27 e 28 de Junho - 21:00h' or '07 de Setembro de 2025' into a datetime object.
+    Returns only the **first day**.
+    """
+    months = {
+        'janeiro': 1, 'fevereiro': 2, 'março': 3, 'abril': 4,
+        'maio': 5, 'junho': 6, 'julho': 7, 'agosto': 8,
+        'setembro': 9, 'outubro': 10, 'novembro': 11, 'dezembro': 12
+    }
+
+    try:
+        # Remove time if present
+        date_str = date_str.split("-")[0].strip()
+
+        # Handle "27 e 28 de Junho"
+        if " e " in date_str:
+            date_str = date_str.split(" e ")[0] + " de " + date_str.split(" de ")[1]
+
+        parts = date_str.strip().split(" de ")
+
+        if len(parts) < 2:
+            raise ValueError("Not enough parts to parse date.")
+
+        day = int(parts[0].strip())
+        month = months[parts[1].strip().lower()]
+        year = datetime.now().year
+
+        return datetime(year, month, day)
+
+    except Exception as e:
+        print(f"❌ Failed to parse date '{date_str}': {e}")
+        return None
+
+def parse_cariacica_date(date_str):
+    """Parses Brazilian dates like 'Sáb, 19 de Julho de 2025' or '19 de Julho de 2025'."""
+    months = {
+        'janeiro': 1, 'fevereiro': 2, 'março': 3, 'abril': 4,
+        'maio': 5, 'junho': 6, 'julho': 7, 'agosto': 8,
+        'setembro': 9, 'outubro': 10, 'novembro': 11, 'dezembro': 12
+    }
+
+    try:
+        # Remove weekday if present (e.g., "Sáb, ")
+        if ',' in date_str:
+            date_str = date_str.split(',', 1)[1].strip()
+
+        parts = date_str.split(" de ")
+        if len(parts) < 3:
+            raise ValueError("Not enough parts to parse date.")
+
+        day = int(parts[0])
+        month = months[parts[1].strip().lower()]
+        year = int(parts[2])
+        return datetime(year, month, day)
+    except Exception as e:
+        print(f"❌ Failed to parse date '{date_str}': {e}")
+        return None
+
+def parse_brazilian_date(date_str: str) -> datetime | None:
+    months = {
+        'janeiro': 1, 'fevereiro': 2, 'março': 3, 'abril': 4,
+        'maio': 5, 'junho': 6, 'julho': 7, 'agosto': 8,
+        'setembro': 9, 'outubro': 10, 'novembro': 11, 'dezembro': 12
+    }
+
+    try:
+        date_str = date_str.lower().strip()
+
+        # Remove weekday if present
+        if "," in date_str:
+            date_str = date_str.split(",", 1)[1].strip()
+
+        # Remove time info if present (e.g., "- 21:00h")
+        if "-" in date_str:
+            date_str = date_str.split("-")[0].strip()
+
+        # Handle range with "a" or "e" (e.g., "03 a 06 de Julho 2025" or "27 e 28 de Junho")
+        if " a " in date_str or " e " in date_str:
+            if " a " in date_str:
+                range_sep = " a "
+            else:
+                range_sep = " e "
+            first_day = int(date_str.split(range_sep)[0].strip())
+
+            rest = date_str.split(" de ", 1)[1]  # e.g. "Julho 2025" or "Junho"
+            rest_parts = rest.strip().split()
+            month = months[rest_parts[0]]
+            year = int(rest_parts[1]) if len(rest_parts) > 1 else datetime.now().year
+
+            return datetime(year, month, first_day)
+
+        # Handle full date: "19 de Julho de 2025"
+        parts = date_str.split(" de ")
+        if len(parts) == 3:
+            day = int(parts[0])
+            month = months[parts[1]]
+            year = int(parts[2])
+            return datetime(year, month, day)
+
+        # Handle partial date: "27 de Junho"
+        if len(parts) == 2:
+            day = int(parts[0])
+            month = months[parts[1]]
+            year = datetime.now().year
+            return datetime(year, month, day)
+
+        raise ValueError("Unsupported date format.")
+
+    except Exception as e:
+        print(f"❌ Failed to parse date '{date_str}': {e}")
+        return None
+
+# def parse_brazilian_date(date_str: str) -> datetime | None:
+#     months = {
+#         'janeiro': 1, 'fevereiro': 2, 'março': 3, 'abril': 4,
+#         'maio': 5, 'junho': 6, 'julho': 7, 'agosto': 8,
+#         'setembro': 9, 'outubro': 10, 'novembro': 11, 'dezembro': 12
+#     }
+
+#     try:
+#         date_str = date_str.lower().strip()
+
+#         # Remove weekday if present
+#         if "," in date_str:
+#             date_str = date_str.split(",", 1)[1].strip()
+
+#         # Remove time info if present
+#         if "-" in date_str:
+#             date_str = date_str.split("-")[0].strip()
+
+#         # Handle range: "03 a 06 de Julho 2025"
+#         if " a " in date_str:
+#             # Take the first day
+#             day = int(date_str.split(" a ")[0].strip())
+#             rest = date_str.split(" de ", 1)[1]  # "Julho 2025"
+#             month_name, year = rest.strip().split()
+#             month = months[month_name]
+#             return datetime(int(year), month, day)
+
+#         # Handle normal case: "19 de Julho de 2025"
+#         parts = date_str.split(" de ")
+#         if len(parts) == 3:
+#             day = int(parts[0])
+#             month = months[parts[1]]
+#             year = int(parts[2])
+#             return datetime(year, month, day)
+
+#         # Handle fallback with current year: "27 de Junho"
+#         if len(parts) == 2:
+#             day = int(parts[0])
+#             month = months[parts[1]]
+#             year = datetime.now().year
+#             return datetime(year, month, day)
+
+#         raise ValueError("Unsupported date format.")
+
+#     except Exception as e:
+#         print(f"❌ Failed to parse date '{date_str}': {e}")
+#         return None
+
+def scrape_lebillet_events_domingos_martins():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=45", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_cariacica():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=29", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_guacui():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=42", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_guarapari():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=30", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_linhares():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=25", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_serra():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=32", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_viana():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=114", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_vilha_velha():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=24", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def scrape_lebillet_events_vitoria():
+    print("⏳ Scraping LeBillet for ES events...")
+    try:
+        response = requests.get("https://lebillet.com.br/search?city=20", timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch LeBillet page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Restrict to only ES-related section
+    next_shows_section = soup.find("div", class_="next-shows-inner")
+    if not next_shows_section:
+        print("❌ Could not find the 'next-shows-inner' container.")
+        return []
+
+    event_cards = next_shows_section.find_all("div", class_="show-card")
+    future_events = []
+
+    for card in event_cards:
+        try:
+            title = card.select_one("h3.title").text.strip()
+            link = card.select_one("a.card-link")["href"]
+            image = card.select_one("img.image")["src"]
+            location = card.select_one("p.data-text.location").text.strip()
+            date_str = card.select_one("p.data-text.datetime").text.strip()
+
+            parsed_date = parse_brazilian_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past or unparseable events
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location.replace(", ES", "").strip(),
+                "date": parsed_date.isoformat(),
+                "font": "LeBillet",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+def parse_eventim_date(date_str):
+    """Parses formats like '05/07/2025 ─ 06/07/2025' and returns the first date as datetime."""
+    try:
+        first_date = date_str.split("─")[0].strip()
+        return datetime.strptime(first_date, "%d/%m/%Y")
+    except Exception as e:
+        print(f"❌ Failed to parse date '{date_str}': {e}")
+        return None
+
+def scrape_eventim_vitoria():
+    url = "https://www.eventim.com.br/city/vitoria-1747/"
+    print("⏳ Scraping Eventim for Vitória events...")
+
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch Eventim page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    results = soup.find_all("product-group-item")
+    
+    future_events = []
+    for item in results:
+        try:
+            # Title
+            title_tag = item.select_one("div.event-listing-city span")
+            title = title_tag.text.strip() if title_tag else "Unknown title"
+
+            # Link
+            link_tag = item.select_one("a.btn")
+            link = "https://www.eventim.com.br" + link_tag["href"] if link_tag else ""
+
+            # Image
+            img_tag = item.select_one("img.listing-image")
+            image = img_tag["src"] if img_tag else ""
+
+            # Location (always Vitória for this page)
+            location = "Vitória"
+
+            # Date (e.g., 05/07/2025 ─ 06/07/2025)
+            date_tag = item.select_one("span.listing-data span")
+            date_str = date_tag.text.strip() if date_tag else ""
+            parsed_date = parse_eventim_date(date_str)
+            if not parsed_date or parsed_date < datetime.now():
+                continue  # Skip past/unparseable
+
+            event_data = {
+                "title": title,
+                "link": link,
+                "image": image,
+                "location": location,
+                "date": parsed_date.isoformat(),
+                "font": "Eventim",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Skipped card due to error: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    if future_events:
+        save_events_bulk(future_events)
+        print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
+    return future_events
+
+# from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from bs4 import BeautifulSoup
+# from datetime import datetime
+# import time
+
+def parse_onticket_date(day_str, month_str):
+    month_map = {
+        "jan.": 1, "fev.": 2, "mar.": 3, "abr.": 4,
+        "mai.": 5, "jun.": 6, "jul.": 7, "ago": 8,
+        "set.": 9, "out.": 10, "nov.": 11, "dez.": 12
+    }
+    try:
+        day = int(day_str)
+        month = month_map[month_str.strip().lower()]
+        year = datetime.now().year
+        return datetime(year, month, day)
+    except Exception as e:
+        print(f"❌ Date error: {day_str} {month_str} -> {e}")
+        return None
+
+def scrape_onticket_with_selenium():
+    print("⏳ Scraping OnTicket with Selenium...")
+
+    url = "https://onticket.com.br/eventos/5784"
+
+    options = Options()
+    options.add_argument("--headless=new")  # se der problema, use "--headless"
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Chrome(options=options)
+    driver.get(url)
+
+    try:
+        # Espera o carrossel aparecer
+        wait = WebDriverWait(driver, 10)
+        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "carousel-inner")))
+
+        # Rola a página até o carrossel
+        driver.execute_script("window.scrollBy(0, 600);")
+        time.sleep(3)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        cards = soup.select(".carousel-inner .col-sm-6.item")
+
+        events = []
+        for card in cards:
+            try:
+                image = card.select_one("img")["src"]
+                title = card.select_one("h3").text.strip()
+                location = card.select_one("#local").text.strip()
+                city = card.select_one("#cidade").text.strip()
+                day = card.select_one("#dia").text.strip()
+                month = card.select_one("#mes").text.strip()
+
+                date = parse_onticket_date(day, month)
+                if not date or date < datetime.now():
+                    continue
+
+                events.append({
+                    "title": title,
+                    "image": image,
+                    "location": location,
+                    "city": city.replace(" - ES", ""),
+                    "UF": "ES",
+                    "date": date.isoformat(),
+                    "font": "OnTicket",
+                    "category": "Shows e Festas",
+                    "link": url
+                })
+
+                print(f"✅ Event parsed: {title}")
+            except Exception as e:
+                print(f"⚠️ Failed to parse event: {e}")
+                continue
+
+        print(f"✅ Total events found: {len(events)}")
+        return events
+
+    finally:
+        driver.quit()
+    print("⏳ Scraping OnTicket with Selenium...")
+
+    url = "https://onticket.com.br/eventos/5784?utm_medium=paid&utm_source=ig&utm_id=6770444452737&utm_content=6770444455337&utm_term=6770444453737&utm_campaign=6770444452737&fbclid=PAQ0xDSwLE15pleHRuA2FlbQEwAGFkaWQAAAYoXfOuoQGnLc_131UVZa8U90HknXQgnFbya8hivgEz3jec9fnD92hP7ItKRV1JumHOGYI_aem_knAjTpPg9U17V9MCcWvfEg"
+
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+
+    driver = webdriver.Chrome(options=options)
+    driver.get(url)
+    time.sleep(5)  # Espera o JS carregar
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    driver.quit()
+
+    events = []
+    cards = soup.select(".carousel-inner .item .col-sm-6.item")
+
+    for card in cards:
+        try:
+            image = card.select_one("img")["src"]
+            title = card.select_one("h3").text.strip()
+            location = card.select_one("#local").text.strip()
+            city = card.select_one("#cidade").text.strip()
+            day = card.select_one("#dia").text.strip()
+            month = card.select_one("#mes").text.strip()
+
+            date = parse_onticket_date(day, month)
+            if not date or date < datetime.now():
+                continue
+
+            event_data = {
+                "title": title,
+                "image": image,
+                "location": location,
+                "city": city.replace(" - ES", "").strip(),
+                "UF": "ES",
+                "date": date.isoformat(),
+                "font": "OnTicket",
+                "category": "Shows e Festas",
+                "link": url
+            }
+
+            events.append(event_data)
+            print(f"✅ Parsed: {title}")
+        except Exception as e:
+            print(f"⚠️ Skipped one due to: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(events)}")
+    return events
+    print("⏳ Scraping OnTicket event page...")
+    url = "https://onticket.com.br/eventos/5784"  # URL limpa
+    try:
+        response = requests.get(url, timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    carousel = soup.find("div", class_="carousel-inner")
+    if not carousel:
+        print("❌ Couldn't find carousel section.")
+        return []
+
+    cards = carousel.find_all("div", class_="col-sm-6 item")
+    future_events = []
+
+    for card in cards:
+        try:
+            title = card.find("h3").text.strip()
+            city = card.find("h4", id="cidade").text.strip()
+            venue = card.find("h4", id="local").text.strip()
+            day = card.find("h4", id="dia").text.strip()
+            month = card.find("h4", id="mes").text.strip()
+            image = card.find("img")["src"]
+
+            date = parse_onticket_date(day, month)
+            if not date or date < datetime.now():
+                continue
+
+            event_data = {
+                "title": title,
+                "location": city,
+                "venue": venue,
+                "image": image,
+                "date": date.isoformat(),
+                "font": "OnTicket",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            future_events.append(event_data)
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+        except Exception as e:
+            print(f"⚠️ Failed to parse card: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(future_events)}")
+    return future_events
+
+    url = "https://onticket.com.br/eventos/5784?utm_medium=paid&utm_source=ig&utm_id=6770444452737&utm_content=6770444455337&utm_term=6770444453737&utm_campaign=6770444452737&fbclid=PAQ0xDSwLE15pleHRuA2FlbQEwAGFkaWQAAAYoXfOuoQGnLc_131UVZa8U90HknXQgnFbya8hivgEz3jec9fnD92hP7ItKRV1JumHOGYI_aem_knAjTpPg9U17V9MCcWvfEg"
+    print("⏳ Scraping OnTicket event page...")
+
+    try:
+        #response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=10, verify=False)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"❌ Failed to fetch page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    event_blocks = soup.select("div.carousel-inner div.row div.item")
+
+    if not event_blocks:
+        print("❌ No events found.")
+        return []
+
+    events = []
+
+    for block in event_blocks:
+        try:
+            image = block.select_one("img")["src"]
+            title = block.select_one("h3").text.strip()
+            day = block.select_one("h4#dia").text.strip()
+            month = block.select_one("h4#mes").text.strip()
+            city = block.select_one("h4#cidade").text.strip()
+            venue = block.select_one("h4#local").text.strip()
+
+            date = parse_onticket_date(day, month)
+            if not date or date < datetime.now():
+                continue
+
+            event_data = {
+                "title": title,
+                "image": image,
+                "location": city,
+                "venue": venue,
+                "date": date.isoformat(),
+                "font": "OnTicket",
+                "category": "Shows e Festas",
+                "UF": "ES"
+            }
+
+            print(f"✅ Parsed: {title}")
+            print(event_data)
+            events.append(event_data)
+        except Exception as e:
+            print(f"⚠️ Failed to parse event: {e}")
+            continue
+
+    print(f"✅ Total events parsed: {len(events)}")
+    return events

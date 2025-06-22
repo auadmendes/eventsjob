@@ -1189,3 +1189,426 @@ requests.exceptions.SSLError: HTTPSConnectionPool(host='www.es.senac.br', port=4
 2025-06-20 13:29:32,969 - event_scraper_log - INFO - Starting scheduled event scraping job...
 2025-06-20 13:30:33,528 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
 2025-06-20 13:30:54,602 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 16:00:50,209 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 16:01:34,611 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 16:02:02,705 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 16:03:02,742 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 16:03:02,744 - event_scraper_log - ERROR - Error during event scraping job: scrape_festival_de_inverno() missing 1 required positional argument: 'html_content'
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 52, in run_event_scraping_job
+    scrape_festival_de_inverno()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: scrape_festival_de_inverno() missing 1 required positional argument: 'html_content'
+2025-06-21 16:03:43,709 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 16:06:41,879 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 16:07:41,919 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 16:07:41,981 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-21 16:07:49,524 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 16:08:46,647 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 16:09:46,684 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 16:09:46,763 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-06-21 16:09:54,623 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 16:12:45,302 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 16:13:45,342 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 16:13:45,990 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 1, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa'}, 'op': {'title': 'XXIX FESTIVAL DE INVERNO + Domingos Martins', 'location': 'Domingos Martins', 'date': '2025-07-13T00:00:00', 'link': 'https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa', 'image': 'https://s3.sa-east-1.amazonaws.com/el.com.br-gpp/portalinstitucional/desenvolvimento-el/78f5ef95-961d-4fd0-b839-740d04ed7328_Fam-lia-Lima--77--otimizado.jpg', 'font': 'Festival de Inverno ES', 'category': 'Festival', 'UF': 'ES', 'description': '12h - Palco Livre - Rua de Lazer', '_id': ObjectId('6857046916294b1198a1a63d')}}], 'writeConcernErrors': [], 'nInserted': 1, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 52, in run_event_scraping_job
+    scrape_festival_de_inverno()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 990, in scrape_festival_de_inverno
+    save_events_bulk(events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 1, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa'}, 'op': {'title': 'XXIX FESTIVAL DE INVERNO + Domingos Martins', 'location': 'Domingos Martins', 'date': '2025-07-13T00:00:00', 'link': 'https://www.festivaldeinvernodm.com.br/pagina/32/programacao-artistica-completa', 'image': 'https://s3.sa-east-1.amazonaws.com/el.com.br-gpp/portalinstitucional/desenvolvimento-el/78f5ef95-961d-4fd0-b839-740d04ed7328_Fam-lia-Lima--77--otimizado.jpg', 'font': 'Festival de Inverno ES', 'category': 'Festival', 'UF': 'ES', 'description': '12h - Palco Livre - Rua de Lazer', '_id': ObjectId('6857046916294b1198a1a63d')}}], 'writeConcernErrors': [], 'nInserted': 1, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-21 16:14:07,033 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:12:34,945 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:12:42,156 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:13:12,720 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:14:12,755 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:14:12,868 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='lebillet.com.br', port=443): Max retries exceeded with url: /search?city=45&dateOf=&dateUntil= (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='lebillet.com.br', port=443): Max retries exceeded with url: /search?city=45&dateOf=&dateUntil= (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 57, in run_event_scraping_job
+    scrape_lebillet_events()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1083, in scrape_lebillet_events
+    response = requests.get(url)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='lebillet.com.br', port=443): Max retries exceeded with url: /search?city=45&dateOf=&dateUntil= (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+2025-06-21 22:14:22,253 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:18:28,026 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:19:28,069 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:19:28,704 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:19:37,514 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:26:34,283 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:27:34,320 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:27:34,795 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:27:53,757 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:31:24,865 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:32:24,898 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:32:25,263 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:32:32,864 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:37:40,883 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:38:40,921 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:38:41,297 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:38:46,756 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:47:34,461 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:48:34,496 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:48:35,593 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 22:48:56,973 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:50:38,713 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:51:38,754 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:51:39,100 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:51:40,446 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 22:51:53,808 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:54:50,139 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:55:50,173 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:55:50,538 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 22:55:51,742 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 22:56:04,668 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:57:51,794 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 22:58:51,830 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 22:58:52,392 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 22:59:00,697 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 22:59:33,406 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:00:33,444 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:00:33,856 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:01:33,892 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:01:34,439 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:01:50,473 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 23:06:20,435 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:07:20,478 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:07:20,919 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 23:07:22,180 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:07:22,480 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:07:29,377 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 23:09:09,173 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:10:09,208 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:10:10,397 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:10:10,691 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:11:10,728 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:11:11,983 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:11:12,492 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:11:49,461 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 23:14:12,943 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:15:12,979 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:15:13,461 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 23:15:14,773 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:15:15,090 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:15:27,680 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 23:18:22,115 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:19:22,154 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:19:22,597 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-21 23:19:23,896 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:19:24,209 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-21 23:19:31,112 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-21 23:21:42,528 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-21 23:22:42,566 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-21 23:22:43,214 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-06-21 23:22:49,645 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 08:34:09,772 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 08:35:09,806 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 08:35:10,903 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-06-22 08:35:24,359 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 08:39:48,361 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 08:40:48,398 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 08:40:49,199 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-06-22 08:40:57,298 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 09:01:35,489 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 09:02:35,524 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 09:02:37,034 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-06-22 09:02:44,976 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 09:08:12,774 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 09:09:12,815 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 09:09:13,362 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-06-22 09:09:14,301 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-06-22 09:09:17,545 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 09:10:05,665 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 09:31:52,393 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 09:32:52,424 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 09:32:52,492 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 09:33:04,253 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 09:43:38,793 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 09:44:38,832 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 09:44:38,936 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 09:45:03,262 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:19:40,926 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:20:40,966 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:20:41,449 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:20:48,621 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:21:31,196 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:22:31,234 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:22:31,702 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:23:31,736 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:23:32,225 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:23:38,536 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:24:53,491 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:25:53,530 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:25:54,110 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:26:54,147 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:26:54,627 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:27:54,666 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:27:55,185 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:28:08,530 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:28:44,988 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:29:45,026 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:29:45,457 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:30:45,501 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:30:45,944 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:31:45,974 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:31:46,485 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:31:51,242 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:33:19,265 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:34:19,300 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:34:33,724 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:34:51,542 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:35:20,349 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:36:20,385 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:36:30,825 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:36:43,448 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:41:54,164 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:42:54,198 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:43:03,612 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:43:59,928 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-22 10:50:21,150 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-22 10:51:21,191 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:51:21,984 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-06-22 10:51:23,554 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-06-22 10:51:24,845 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-06-22 10:51:26,583 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-06-22 10:51:28,295 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-06-22 10:51:30,094 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-06-22 10:51:30,713 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-06-22 10:51:31,742 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-06-22 10:51:36,039 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:51:36,153 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-22 10:52:36,187 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:52:36,604 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580aa42aad5c4df1a15eb5')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 67, in run_event_scraping_job
+    scrape_lebillet_events_domingos_martins()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1277, in scrape_lebillet_events_domingos_martins
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580aa42aad5c4df1a15eb5')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-22 10:53:36,662 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:53:37,361 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580ae12aad5c4df1a15eb6')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 67, in run_event_scraping_job
+    scrape_lebillet_events_domingos_martins()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1277, in scrape_lebillet_events_domingos_martins
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580ae12aad5c4df1a15eb6')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-22 10:54:37,398 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:54:38,083 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b1e2aad5c4df1a15eb7')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 67, in run_event_scraping_job
+    scrape_lebillet_events_domingos_martins()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1277, in scrape_lebillet_events_domingos_martins
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b1e2aad5c4df1a15eb7')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-22 10:55:38,124 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:55:39,022 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b5a2aad5c4df1a15eb8')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 67, in run_event_scraping_job
+    scrape_lebillet_events_domingos_martins()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1277, in scrape_lebillet_events_domingos_martins
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b5a2aad5c4df1a15eb8')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-22 10:56:39,059 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-22 10:56:39,790 - event_scraper_log - ERROR - Error during event scraping job: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b972aad5c4df1a15eb9')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 67, in run_event_scraping_job
+    scrape_lebillet_events_domingos_martins()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper.py", line 1277, in scrape_lebillet_events_domingos_martins
+    save_events_bulk(future_events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\database\db_operations.py", line 45, in save_events_bulk
+    events_collection.insert_many(to_insert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\collection.py", line 975, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 751, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\synchronous\bulk.py", line 614, in execute_command
+    _raise_bulk_write_error(full_result)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\pymongo\bulk_shared.py", line 131, in _raise_bulk_write_error
+    raise BulkWriteError(full_result)
+pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: eventsdb.events index: link_1 dup key: { link: "https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES" }', 'keyPattern': {'link': 1}, 'keyValue': {'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES'}, 'op': {'title': 'Winter Pedra Azul 2025', 'link': 'https://lebillet.com.br/event/2190/winter-pedra-azul-2025-27-junho-Domingos-Martins-ES', 'image': 'https://lebillet.com.br/img/shows/2190_1747670752.png', 'location': 'Domingos Martins', 'date': '2025-06-27T00:00:00', 'font': 'LeBillet', 'category': 'Shows e Festas', 'UF': 'ES', '_id': ObjectId('68580b972aad5c4df1a15eb9')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-22 10:57:06,088 - event_scraper_log - INFO - Scheduler stopped by user.

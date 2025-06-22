@@ -22,24 +22,27 @@ def save_event(event_data):
 
 # database/db_operations.py
 def save_events_bulk(events):
-    """Insert only new events based on unique 'link' field."""
-    new_events = []
-    existing_links = set(
-        events_collection.find(
-            {"link": {"$in": [e["link"] for e in events]}},
-            {"link": 1, "_id": 0}
-        ).distinct("link")
-    )
+    if not events:
+        print("⚠️ No events to save.")
+        return
 
+    # Deduplicate based on title + date + location
+    unique_events = {}
     for event in events:
-        if event["link"] not in existing_links:
-            new_events.append(event)
+        title = event.get("title", "").lower().strip()
+        date = event.get("date", "").strip()
+        location = event.get("location", "").lower().strip()
+        dedup_key = f"{title}_{date}_{location}"
 
-    if new_events:
-        try:
-            events_collection.insert_many(new_events, ordered=False)
-            print(f"✅ Inserted {len(new_events)} new event(s).")
-        except BulkWriteError as bwe:
-            print(f"⚠️ Duplicate(s) skipped during insert_many: {bwe.details}")
+        if dedup_key not in unique_events:
+            unique_events[dedup_key] = event
+        else:
+            print(f"🔁 Duplicate skipped: {event['title']} on {event['date']} at {event.get('location', '')}")
+
+    to_insert = list(unique_events.values())
+
+    if to_insert:
+        events_collection.insert_many(to_insert)
+        print(f"✅ Saved {len(to_insert)} unique events to MongoDB.")
     else:
-        print("🔁 No new events to insert.")
+        print("⚠️ No unique events to insert.")
