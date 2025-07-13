@@ -5143,3 +5143,498 @@ pymongo.errors.BulkWriteError: batch op errors occurred, full error: {'writeErro
 2025-06-25 16:30:09,154 - event_scraper_log - INFO - Starting scheduled event scraping job...
 2025-06-25 16:30:23,103 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
 2025-06-25 16:30:37,484 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-06-25 18:12:20,781 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-06-25 18:13:20,818 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-06-25 18:13:33,720 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-06-25 18:13:41,915 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 09:52:14,353 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 09:53:14,400 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 09:53:30,266 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 09:53:33,891 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 09:53:55,377 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-01 09:53:56,750 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-01 09:54:04,719 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 09:54:56,952 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-01 09:54:57,607 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-01 09:54:58,994 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-01 09:54:59,696 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-01 09:55:00,644 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-01 09:55:01,480 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-01 09:55:04,015 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-01 09:55:04,783 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-01 09:55:05,894 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-01 09:55:09,798 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-01 09:55:30,805 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-01 09:55:41,103 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-01 09:56:26,915 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 10:15:04,490 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 10:16:04,526 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 10:16:11,170 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 10:17:11,215 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 10:17:17,808 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 10:17:24,777 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 10:36:20,295 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 10:37:20,327 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 10:37:26,187 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 10:37:29,237 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 10:44:13,769 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 10:45:13,804 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 10:45:21,719 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 10:45:45,469 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 11:27:39,288 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 11:28:39,322 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 11:28:45,651 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 11:29:01,146 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 11:30:37,823 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 11:31:37,867 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 11:31:45,985 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 11:31:47,896 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 11:32:08,184 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-01 11:32:10,524 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-01 11:32:17,886 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 11:32:51,457 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 11:40:05,169 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 11:41:05,207 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 11:41:07,909 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 11:41:22,870 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-01 11:41:24,241 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-01 11:41:32,270 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 11:41:37,998 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 12:14:39,539 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 12:15:39,572 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 12:15:42,085 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 12:15:47,146 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 12:16:16,030 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 12:17:16,066 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 12:17:18,334 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 12:17:24,924 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 13:10:02,333 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 13:11:02,364 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 13:11:05,781 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-01 13:11:12,234 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 13:17:47,293 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 13:18:47,329 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 13:18:54,675 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 13:18:57,381 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 13:26:24,226 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 13:27:24,265 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 13:27:31,262 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 13:27:34,436 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-01 13:38:00,562 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-01 13:39:00,599 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-01 13:39:18,577 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-01 13:39:22,265 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-01 13:39:35,361 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-01 13:39:36,609 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-01 13:39:43,266 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-01 13:40:35,692 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-01 13:40:36,130 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-01 13:40:38,109 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-01 13:40:39,338 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-01 13:40:40,104 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-01 13:40:40,888 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-01 13:40:42,523 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-01 13:40:43,575 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-01 13:40:44,489 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-01 13:40:47,734 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-01 13:41:07,422 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-01 13:41:18,067 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-01 13:41:56,625 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 09:29:01,949 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 09:30:01,982 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 09:30:20,346 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 09:30:24,207 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 09:30:39,100 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-04 09:30:40,342 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-04 09:30:47,667 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-04 09:31:42,634 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-04 09:31:43,274 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-04 09:31:44,682 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-04 09:31:45,265 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-04 09:31:46,077 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-04 09:31:46,628 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-04 09:31:48,324 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-04 09:31:48,649 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-04 09:31:49,604 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-04 09:31:53,630 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 09:32:13,450 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 09:32:23,031 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-04 09:33:23,059 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 09:33:30,831 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 09:33:34,137 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 09:33:45,930 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-04 09:33:48,307 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-04 09:33:55,724 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-04 09:34:43,984 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-04 09:34:44,345 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-04 09:34:45,812 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-04 09:34:46,397 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-04 09:34:47,278 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-04 09:34:47,813 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-04 09:34:49,276 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-04 09:34:49,579 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-04 09:34:50,487 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-04 09:34:53,630 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 09:35:12,280 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 09:35:21,671 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-04 09:36:21,699 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 09:36:29,125 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 09:36:32,460 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 09:36:39,219 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 11:21:25,764 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 11:22:25,831 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 11:22:33,705 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 11:22:36,311 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 12:15:55,862 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 12:16:56,069 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 12:17:13,381 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 12:17:16,635 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 12:21:15,568 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 12:22:16,034 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 12:22:22,096 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 12:22:25,660 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 12:25:04,176 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 12:26:04,234 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 12:26:12,195 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 12:26:14,671 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 12:37:58,563 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 12:38:58,591 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 12:39:06,199 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 12:39:18,199 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 15:15:20,753 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 15:16:20,785 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 15:16:43,542 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Shows e Fetas.
+2025-07-04 15:17:05,501 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Cusros e Workshops.
+2025-07-04 15:17:15,497 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Congressos e Palestras.
+2025-07-04 15:17:34,435 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Esportes.
+2025-07-04 15:17:53,986 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Gastronomia.
+2025-07-04 15:18:17,846 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Arte, Cinema e Lazer.
+2025-07-04 15:18:18,834 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Infantil.
+2025-07-04 15:18:36,833 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Saúde e Bem Estar.
+2025-07-04 15:18:59,431 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Religião e Espiritualizade.
+2025-07-04 15:19:00,600 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Games e Geek.
+2025-07-04 15:19:20,387 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Moda e Beleza.
+2025-07-04 15:19:21,324 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully prode.
+2025-07-04 15:20:13,048 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 15:28:30,741 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 15:29:30,782 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 15:29:39,796 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Arte, Cinema e Lazer.
+2025-07-04 15:30:27,370 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 15:30:55,100 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 15:31:55,135 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 15:32:05,132 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Shows e Fetas.
+2025-07-04 15:32:16,402 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Cusros e Workshops.
+2025-07-04 15:32:40,599 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Congressos e Palestras.
+2025-07-04 15:32:48,478 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Esportes.
+2025-07-04 15:32:55,308 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Gastronomia.
+2025-07-04 15:33:05,566 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Arte, Cinema e Lazer.
+2025-07-04 15:33:05,889 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Infantil.
+2025-07-04 15:33:12,611 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Saúde e Bem Estar.
+2025-07-04 15:33:22,149 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Religião e Espiritualizade.
+2025-07-04 15:33:22,422 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Games e Geek.
+2025-07-04 15:33:29,497 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Moda e Beleza.
+2025-07-04 15:33:29,879 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully prode.
+2025-07-04 15:33:33,250 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 15:33:47,808 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-04 15:33:49,096 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-04 15:33:56,426 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-04 15:34:53,247 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-04 15:34:53,948 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-04 15:34:55,138 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-04 15:34:55,697 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-04 15:34:56,611 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-04 15:34:57,383 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-04 15:34:58,745 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-04 15:34:59,408 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-04 15:35:00,587 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-04 15:35:04,510 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 15:35:24,236 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 15:35:33,261 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-04 15:36:33,303 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 15:36:44,392 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Shows e Fetas.
+2025-07-04 15:36:55,275 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Cusros e Workshops.
+2025-07-04 15:37:05,932 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Congressos e Palestras.
+2025-07-04 15:37:13,652 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Esportes.
+2025-07-04 15:37:21,042 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully Gastronomia.
+2025-07-04 15:37:24,180 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 15:56:39,414 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 15:57:39,449 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 15:57:58,441 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 15:58:01,235 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 15:58:24,502 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-04 15:58:26,192 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-04 15:58:33,290 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-04 15:59:32,229 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-04 15:59:32,619 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-04 15:59:33,906 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-04 15:59:34,449 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-04 15:59:35,262 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-04 15:59:35,828 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-04 15:59:37,255 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-04 15:59:37,608 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-04 15:59:38,640 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-04 15:59:41,859 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 16:00:00,985 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 16:00:11,387 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-04 16:01:11,420 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 16:01:19,315 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-04 17:23:55,529 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-04 17:24:55,565 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 17:25:16,943 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-04 17:25:19,052 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-04 17:25:33,758 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-04 17:25:36,490 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-04 17:25:44,242 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-04 17:26:43,420 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-04 17:26:44,371 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-04 17:26:46,047 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-04 17:26:46,781 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-04 17:26:47,881 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-04 17:26:48,912 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-04 17:26:50,782 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-04 17:26:51,597 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-04 17:26:52,830 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-04 17:26:56,591 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 17:27:19,379 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-04 17:27:29,982 - event_scraper_log - INFO - Event scraping onticket job completed successfully.
+2025-07-04 17:28:30,017 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-04 17:28:36,750 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-08 11:49:03,525 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-08 11:50:03,570 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-08 11:50:23,362 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-08 11:50:28,178 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-08 11:50:44,192 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-08 11:50:47,775 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-08 11:50:54,770 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-08 11:51:49,975 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-08 11:51:50,644 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-08 11:51:52,162 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-08 11:51:52,749 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-08 11:51:53,604 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-08 11:51:54,513 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-08 11:51:56,293 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-08 11:51:56,807 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-08 11:51:57,883 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-08 11:52:01,794 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 11:52:21,388 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 11:52:37,965 - event_scraper_log - ERROR - Error during event scraping job: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ee136f95+76917]
+	GetHandleVerifier [0x0x7ff7ee136ff0+77008]
+	(No symbol) [0x0x7ff7edee9dea]
+	(No symbol) [0x0x7ff7edf40256]
+	(No symbol) [0x0x7ff7edf4050c]
+	(No symbol) [0x0x7ff7edf93887]
+	(No symbol) [0x0x7ff7edf684af]
+	(No symbol) [0x0x7ff7edf9065c]
+	(No symbol) [0x0x7ff7edf68243]
+	(No symbol) [0x0x7ff7edf31431]
+	(No symbol) [0x0x7ff7edf321c3]
+	GetHandleVerifier [0x0x7ff7ee40d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7ee407923+3028483]
+	GetHandleVerifier [0x0x7ff7ee4258bd+3151261]
+	GetHandleVerifier [0x0x7ff7ee15185e+185662]
+	GetHandleVerifier [0x0x7ff7ee15971f+218111]
+	GetHandleVerifier [0x0x7ff7ee13fb14+112628]
+	GetHandleVerifier [0x0x7ff7ee13fcc9+113065]
+	GetHandleVerifier [0x0x7ff7ee126c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 188, in run_event_scraping_job
+    scrape_onticket_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_onticket.py", line 43, in scrape_onticket_with_selenium
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "carousel-inner")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ee136f95+76917]
+	GetHandleVerifier [0x0x7ff7ee136ff0+77008]
+	(No symbol) [0x0x7ff7edee9dea]
+	(No symbol) [0x0x7ff7edf40256]
+	(No symbol) [0x0x7ff7edf4050c]
+	(No symbol) [0x0x7ff7edf93887]
+	(No symbol) [0x0x7ff7edf684af]
+	(No symbol) [0x0x7ff7edf9065c]
+	(No symbol) [0x0x7ff7edf68243]
+	(No symbol) [0x0x7ff7edf31431]
+	(No symbol) [0x0x7ff7edf321c3]
+	GetHandleVerifier [0x0x7ff7ee40d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7ee407923+3028483]
+	GetHandleVerifier [0x0x7ff7ee4258bd+3151261]
+	GetHandleVerifier [0x0x7ff7ee15185e+185662]
+	GetHandleVerifier [0x0x7ff7ee15971f+218111]
+	GetHandleVerifier [0x0x7ff7ee13fb14+112628]
+	GetHandleVerifier [0x0x7ff7ee13fcc9+113065]
+	GetHandleVerifier [0x0x7ff7ee126c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+
+2025-07-08 11:53:38,015 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-08 11:53:46,433 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-08 11:53:51,755 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-08 11:54:04,300 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-08 11:54:05,656 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-08 11:54:12,672 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-08 11:55:06,404 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-08 11:55:06,853 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-08 11:55:08,504 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-08 11:55:09,015 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-08 11:55:09,715 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-08 11:55:10,268 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-08 11:55:11,875 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-08 11:55:12,418 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-08 11:55:13,398 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-08 11:55:17,089 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 11:55:36,172 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 11:55:51,765 - event_scraper_log - ERROR - Error during event scraping job: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ee136f95+76917]
+	GetHandleVerifier [0x0x7ff7ee136ff0+77008]
+	(No symbol) [0x0x7ff7edee9dea]
+	(No symbol) [0x0x7ff7edf40256]
+	(No symbol) [0x0x7ff7edf4050c]
+	(No symbol) [0x0x7ff7edf93887]
+	(No symbol) [0x0x7ff7edf684af]
+	(No symbol) [0x0x7ff7edf9065c]
+	(No symbol) [0x0x7ff7edf68243]
+	(No symbol) [0x0x7ff7edf31431]
+	(No symbol) [0x0x7ff7edf321c3]
+	GetHandleVerifier [0x0x7ff7ee40d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7ee407923+3028483]
+	GetHandleVerifier [0x0x7ff7ee4258bd+3151261]
+	GetHandleVerifier [0x0x7ff7ee15185e+185662]
+	GetHandleVerifier [0x0x7ff7ee15971f+218111]
+	GetHandleVerifier [0x0x7ff7ee13fb14+112628]
+	GetHandleVerifier [0x0x7ff7ee13fcc9+113065]
+	GetHandleVerifier [0x0x7ff7ee126c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 188, in run_event_scraping_job
+    scrape_onticket_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_onticket.py", line 43, in scrape_onticket_with_selenium
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "carousel-inner")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ee136f95+76917]
+	GetHandleVerifier [0x0x7ff7ee136ff0+77008]
+	(No symbol) [0x0x7ff7edee9dea]
+	(No symbol) [0x0x7ff7edf40256]
+	(No symbol) [0x0x7ff7edf4050c]
+	(No symbol) [0x0x7ff7edf93887]
+	(No symbol) [0x0x7ff7edf684af]
+	(No symbol) [0x0x7ff7edf9065c]
+	(No symbol) [0x0x7ff7edf68243]
+	(No symbol) [0x0x7ff7edf31431]
+	(No symbol) [0x0x7ff7edf321c3]
+	GetHandleVerifier [0x0x7ff7ee40d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7ee407923+3028483]
+	GetHandleVerifier [0x0x7ff7ee4258bd+3151261]
+	GetHandleVerifier [0x0x7ff7ee15185e+185662]
+	GetHandleVerifier [0x0x7ff7ee15971f+218111]
+	GetHandleVerifier [0x0x7ff7ee13fb14+112628]
+	GetHandleVerifier [0x0x7ff7ee13fcc9+113065]
+	GetHandleVerifier [0x0x7ff7ee126c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+
+2025-07-08 11:56:02,944 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-08 13:07:00,605 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-08 13:08:00,638 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-08 13:08:18,702 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-08 13:08:22,777 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-08 13:08:41,776 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-08 13:08:43,428 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-08 13:08:50,700 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-08 13:09:47,998 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-08 13:09:48,729 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-08 13:09:50,047 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-08 13:09:50,613 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-08 13:09:51,496 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-08 13:09:52,297 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-08 13:09:53,569 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-08 13:09:53,877 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-08 13:09:54,859 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-08 13:09:58,002 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 13:10:18,221 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 13:10:35,007 - event_scraper_log - ERROR - Error during event scraping job: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f146f95+76917]
+	GetHandleVerifier [0x0x7ff63f146ff0+77008]
+	(No symbol) [0x0x7ff63eef9dea]
+	(No symbol) [0x0x7ff63ef50256]
+	(No symbol) [0x0x7ff63ef5050c]
+	(No symbol) [0x0x7ff63efa3887]
+	(No symbol) [0x0x7ff63ef784af]
+	(No symbol) [0x0x7ff63efa065c]
+	(No symbol) [0x0x7ff63ef78243]
+	(No symbol) [0x0x7ff63ef41431]
+	(No symbol) [0x0x7ff63ef421c3]
+	GetHandleVerifier [0x0x7ff63f41d2cd+3051437]
+	GetHandleVerifier [0x0x7ff63f417923+3028483]
+	GetHandleVerifier [0x0x7ff63f4358bd+3151261]
+	GetHandleVerifier [0x0x7ff63f16185e+185662]
+	GetHandleVerifier [0x0x7ff63f16971f+218111]
+	GetHandleVerifier [0x0x7ff63f14fb14+112628]
+	GetHandleVerifier [0x0x7ff63f14fcc9+113065]
+	GetHandleVerifier [0x0x7ff63f136c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 188, in run_event_scraping_job
+    scrape_onticket_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_onticket.py", line 43, in scrape_onticket_with_selenium
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "carousel-inner")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f146f95+76917]
+	GetHandleVerifier [0x0x7ff63f146ff0+77008]
+	(No symbol) [0x0x7ff63eef9dea]
+	(No symbol) [0x0x7ff63ef50256]
+	(No symbol) [0x0x7ff63ef5050c]
+	(No symbol) [0x0x7ff63efa3887]
+	(No symbol) [0x0x7ff63ef784af]
+	(No symbol) [0x0x7ff63efa065c]
+	(No symbol) [0x0x7ff63ef78243]
+	(No symbol) [0x0x7ff63ef41431]
+	(No symbol) [0x0x7ff63ef421c3]
+	GetHandleVerifier [0x0x7ff63f41d2cd+3051437]
+	GetHandleVerifier [0x0x7ff63f417923+3028483]
+	GetHandleVerifier [0x0x7ff63f4358bd+3151261]
+	GetHandleVerifier [0x0x7ff63f16185e+185662]
+	GetHandleVerifier [0x0x7ff63f16971f+218111]
+	GetHandleVerifier [0x0x7ff63f14fb14+112628]
+	GetHandleVerifier [0x0x7ff63f14fcc9+113065]
+	GetHandleVerifier [0x0x7ff63f136c98+10616]
+	BaseThreadInitThunk [0x0x7ff89fd0e8d7+23]
+	RtlUserThreadStart [0x0x7ff8a005c5dc+44]
+
+2025-07-08 13:11:35,059 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-08 13:11:41,279 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-08 13:11:45,044 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-08 13:11:58,185 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-08 13:11:59,365 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-08 13:12:05,271 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-08 13:13:01,023 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-08 13:13:01,753 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-08 13:13:03,090 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-08 13:13:03,752 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-08 13:13:04,490 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-08 13:13:05,262 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-08 13:13:06,860 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-08 13:13:07,181 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-08 13:13:08,185 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-08 13:13:11,538 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-08 13:13:25,833 - event_scraper_log - INFO - Scheduler stopped by user.
