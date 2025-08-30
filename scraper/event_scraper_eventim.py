@@ -100,6 +100,7 @@ def scrape_eventim_vitoria():
         print(f"✅ Saved {len(future_events)} LeBillet events to MongoDB.")
     return future_events
 
+######## #working with selenium
 def scrape_eventim_vitoria_selenium():
     print("⏳ Scraping Eventim with Selenium...")
 
@@ -170,3 +171,80 @@ def scrape_eventim_vitoria_selenium():
     if events:
         save_events_bulk(events)
     return events
+
+
+# def scrape_eventim_vitoria_selenium():
+#     print("⏳ Scraping Eventim com Selenium...")
+
+#     chrome_options = Options()
+#     chrome_options.add_argument("--headless")
+#     chrome_options.add_argument("--no-sandbox")
+#     chrome_options.add_argument("--disable-dev-shm-usage")
+
+#     service = Service(ChromeDriverManager().install())
+#     driver = webdriver.Chrome(service=service, options=chrome_options)
+#     driver.get("https://www.eventim.com.br/city/vitoria-1747/")
+#     time.sleep(20)
+
+#     html = driver.page_source
+#     driver.quit()
+
+#     soup = BeautifulSoup(html, "html.parser")
+#     listings = soup.select("div.listing")
+
+#     events = []
+
+#     for listing in listings:
+#         try:
+#             # Título
+#             title_tag = listing.select_one("div.event-listing-city span")
+#             title = title_tag.text.strip() if title_tag else "Sem título"
+
+#             # Imagem
+#             img_tag = listing.select_one("img.listing-image")
+#             image = img_tag.get("src") or img_tag.get("data-src", "") if img_tag else ""
+
+#             # Data
+#             date_tag = listing.select_one("span.listing-data span")
+#             if not date_tag:
+#                 print("❌ Data não encontrada.")
+#                 continue
+
+#             match = re.search(r"(\d{2}/\d{2}/\d{4})", date_tag.text)
+#             if not match:
+#                 print(f"❌ Data inválida: {date_tag.text}")
+#                 continue
+
+#             date = datetime.strptime(match.group(1), "%d/%m/%Y")
+#             if date < datetime.now():
+#                 continue
+
+#             # Link
+#             link_tag = listing.select_one("a.link")
+#             link = "https://www.eventim.com.br" + link_tag["href"] if link_tag else ""
+
+#             # Evento montado
+#             event_data = {
+#                 "title": title,
+#                 "link": link,
+#                 "image": image,
+#                 "location": "Vitória",
+#                 "date": date.isoformat(),
+#                 "end_date": date.isoformat(),
+#                 "font": "Eventim",
+#                 "category": categorize_event(title),
+#                 "highlighted": False,
+#                 "UF": "ES"
+#             }
+
+#             print(f"✅ {title} | {date.date()} | {link}")
+#             events.append(event_data)
+
+#         except Exception as e:
+#             print(f"⚠️ Erro ao processar evento: {e}")
+#             continue
+
+#     print(f"✅ Parsed {len(events)} events from Eventim (Selenium).")
+#     if events:
+#         save_events_bulk(events)
+#     return events

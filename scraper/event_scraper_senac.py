@@ -31,13 +31,14 @@ BASE_URL = "https://www.es.senac.br"
 COURSE_LIST_URL = f"{BASE_URL}/cursos"
 
 def scrape_senac_courses():
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--window-size=1920,1080")
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    driver_path = "C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe"
-    service = Service(executable_path=driver_path)
-    driver = webdriver.Chrome(service=service, options=options)
+    # ✅ Sem precisar baixar ou indicar caminho manualmente
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
         page = 1

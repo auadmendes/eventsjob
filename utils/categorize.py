@@ -65,6 +65,10 @@ categories = {
         "autocuidado", "terapia", "psicologia", "psicólogo", "psicóloga", "psicoterapia", "terapia ocupacional", "acupuntura", "massagem", "relaxamento",
         "meditação guiada", "yoga", "ioga", "pilates",
     ],
+    "Cultura": [
+        "museu", "exposição", "arte", "cultural", "artístico", "galeria", "mostra",
+        "artes", "cultura", "cultural",
+    ],
     
 }
 

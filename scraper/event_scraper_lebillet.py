@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-
+from utils.categorize import categorize_event
 from database.db_operations import save_events_bulk
 
 def parse_brazilian_date(date_str: str) -> datetime | None:
@@ -99,7 +99,8 @@ def scrape_lebillet_events_domingos_martins():
                 "date": parsed_date.isoformat(),
                 "end_date": parsed_date.isoformat(),
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                #"category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "highlighted": False,
                 "UF": "ES"
             }
@@ -158,7 +159,7 @@ def scrape_lebillet_events_cariacica():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -216,7 +217,7 @@ def scrape_lebillet_events_guacui():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -274,7 +275,7 @@ def scrape_lebillet_events_guarapari():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -332,7 +333,7 @@ def scrape_lebillet_events_linhares():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -390,7 +391,7 @@ def scrape_lebillet_events_serra():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -448,7 +449,7 @@ def scrape_lebillet_events_viana():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -506,7 +507,7 @@ def scrape_lebillet_events_vilha_velha():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 
@@ -564,7 +565,7 @@ def scrape_lebillet_events_vitoria():
                 "end_date": parsed_date.isoformat(),
                 "highlighted": False,
                 "font": "LeBillet",
-                "category": "Shows e Festas",
+                "category": categorize_event(title + " " + location),
                 "UF": "ES"
             }
 

@@ -16,6 +16,8 @@ from utils.categorize import categorize_event
 
 
 
+from webdriver_manager.chrome import ChromeDriverManager
+
 import re
 
 from datetime import datetime
@@ -70,14 +72,14 @@ def parse_beacons_date_range(raw):
         return None, None
 
 def scrape_beacons_with_selenium():
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--log-level=3")
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    driver_path = "C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe"
-    service = Service(executable_path=driver_path)
-    driver = webdriver.Chrome(service=service, options=options)
+    # ✅ Sem precisar baixar ou indicar caminho manualmente
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     url = "https://beacons.ai/melhoreseventosdoes?fbclid=PAZXh0bgNhZW0CMTEAAae9mErKM_MpJc1iQscQWA9Dc1Hn7HQ9xAJMNI2PECVPt0aM4qB7DzyCBKOAQQ_aem_ksFKDl5k3XV4l5T4qfSoWQ"
 
@@ -87,15 +89,17 @@ def scrape_beacons_with_selenium():
     try:
         driver.get(url)
         print("Waiting for dynamic content to load...")
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'a.css-f9dlpb, div.Links.imageGrid.grid a.no-underline'))
+
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.no-underline > center"))
         )
+
         print("Dynamic content appears to be loaded.")
 
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         print("\n--- Attempting to find imageGrid events using Selenium ---")
-        image_grid_links = soup.select('div.Links.imageGrid.grid a.no-underline')
+        image_grid_links = soup.select('a.no-underline > center')
         print(f"Selenium found {len(image_grid_links)} potential imageGrid links.")
 
         for i, link_tag in enumerate(image_grid_links):
@@ -132,7 +136,7 @@ def scrape_beacons_with_selenium():
                     "image": img_src,
                     "font": "Melhores Eventos ES",
                     "highlighted": False,
-                    "category": categorize_event(title),
+                    "category": categorize_event(title + " " + location),
                     "UF": "ES"
                 }
 

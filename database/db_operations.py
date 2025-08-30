@@ -67,7 +67,7 @@ def save_events_bulk(events):
         filter_ = {
             "title": event["title"],
             "date": event["date"],
-            "link": event["link"]
+            #"link": event["link"]
         }
 
         # Update with the new data (insert if not exists)

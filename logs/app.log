@@ -5638,3 +5638,576 @@ Stacktrace:
 2025-07-08 13:13:08,185 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
 2025-07-08 13:13:11,538 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
 2025-07-08 13:13:25,833 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 13:50:48,856 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 13:51:48,891 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 13:52:03,664 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-13 13:52:12,796 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-13 13:52:24,302 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-13 13:52:25,375 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-13 13:52:25,376 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 119, in run_event_scraping_job
+    scrape_beacons_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_beacons.py", line 80, in scrape_beacons_with_selenium
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 13:52:35,952 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:06:07,762 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:07:07,875 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:07:12,374 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-13 14:07:14,805 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-13 14:07:24,832 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-13 14:07:25,838 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-13 14:07:25,840 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 119, in run_event_scraping_job
+    scrape_beacons_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_beacons.py", line 80, in scrape_beacons_with_selenium
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:08:25,914 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:08:30,125 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-13 14:08:33,229 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-13 14:08:43,404 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-13 14:08:44,839 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-13 14:08:44,840 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 119, in run_event_scraping_job
+    scrape_beacons_with_selenium()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_beacons.py", line 80, in scrape_beacons_with_selenium
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:08:59,550 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:10:16,737 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:11:16,813 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:11:21,353 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-13 14:11:24,376 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-13 14:11:36,032 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-13 14:11:38,137 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-13 14:12:01,849 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-13 14:12:01,850 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 124, in run_event_scraping_job
+    scrape_senac_courses()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_senac.py", line 40, in scrape_senac_courses
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:12:09,313 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:16:09,605 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:17:09,651 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:17:36,311 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-13 14:17:36,313 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 125, in run_event_scraping_job
+    scrape_senac_courses()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_senac.py", line 40, in scrape_senac_courses
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:17:41,001 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:23:07,438 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:24:07,520 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:24:12,832 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-13 14:24:12,834 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 125, in run_event_scraping_job
+    scrape_senac_courses()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_senac.py", line 40, in scrape_senac_courses
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:24:26,836 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:26:49,770 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:27:50,009 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:27:55,450 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-13 14:28:27,118 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:28:55,723 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:29:05,730 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:29:05,731 - event_scraper_log - ERROR - Error during event scraping job: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:/Users/Luciano.Horta/Documents/chromedriver-win64/chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 125, in run_event_scraping_job
+    scrape_senac_courses()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_senac.py", line 40, in scrape_senac_courses
+    driver = webdriver.Chrome(service=service, options=options)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-07-13 14:29:13,435 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:30:46,882 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:30:49,883 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:31:37,391 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-13 14:31:39,922 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:32:50,318 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:32:53,319 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:32:53,723 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:32:56,725 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:32:57,073 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:33:00,073 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:33:00,656 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:33:03,658 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:33:04,208 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:33:05,218 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:35:10,222 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:35:13,223 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:35:13,768 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:35:15,012 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-13 14:35:15,282 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-13 14:35:16,044 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-13 14:35:16,786 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-13 14:35:18,195 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-13 14:35:18,674 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-13 14:35:19,602 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-13 14:35:22,506 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:35:25,510 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:35:25,833 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-13 14:35:27,047 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:41:58,267 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:42:01,268 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:42:15,647 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:42:18,648 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:42:21,107 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:48:10,352 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:48:13,353 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:49:13,434 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:49:23,460 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:49:26,463 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:49:40,756 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:49:43,759 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:49:45,320 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:50:08,533 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:50:11,534 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:50:25,949 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:50:28,951 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:50:43,351 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:50:46,354 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:50:48,418 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:52:53,477 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:52:56,477 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:53:10,895 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:53:13,897 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:53:15,699 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 14:58:38,193 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 14:58:41,194 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:58:55,487 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 14:58:58,489 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 14:58:59,990 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:03:58,575 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:04:01,576 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:04:21,203 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:04:24,205 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:04:26,031 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:07:31,034 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:07:34,035 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:07:53,271 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:07:56,274 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:08:15,869 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:08:18,871 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:08:38,283 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:09:41,001 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:09:44,002 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:13:56,426 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:13:59,429 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:14:59,509 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:15:19,690 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:15:22,692 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:15:47,006 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:15:50,008 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:16:05,183 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:17:32,916 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:17:35,917 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:17:50,192 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:17:53,194 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:18:07,659 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:18:10,662 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:18:25,153 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:18:28,156 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:18:35,535 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-13 15:25:55,598 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-13 15:25:58,599 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:26:14,918 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-13 15:26:17,920 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-13 15:26:18,928 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-20 13:09:56,749 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-20 13:09:59,750 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-20 13:10:18,874 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-20 13:10:21,877 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-20 13:10:39,867 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-20 13:10:42,869 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-20 13:11:00,375 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-20 13:11:03,378 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-20 13:11:23,574 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-20 13:11:26,575 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-20 13:11:31,371 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-07-26 18:07:53,043 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-07-26 18:07:56,044 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-07-26 18:08:13,976 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-07-26 18:08:16,579 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-07-26 18:08:28,423 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-07-26 18:08:30,553 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-07-26 18:09:10,467 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-07-26 18:10:18,735 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-07-26 18:10:19,334 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-07-26 18:10:20,571 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-07-26 18:10:21,058 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-07-26 18:10:21,894 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-07-26 18:10:22,418 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-07-26 18:10:23,733 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-07-26 18:10:24,242 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-07-26 18:10:25,233 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-07-26 18:10:28,171 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-26 18:10:47,078 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-07-26 18:10:49,849 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-16 17:58:18,658 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-16 17:58:21,659 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-16 17:58:40,044 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-08-16 17:58:43,512 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-08-16 17:58:54,456 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-08-16 17:58:55,650 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-08-16 17:59:35,387 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-08-16 18:00:24,540 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-08-16 18:00:25,162 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-08-16 18:00:26,530 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-08-16 18:00:26,868 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-08-16 18:00:27,682 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-08-16 18:00:28,722 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-08-16 18:00:30,238 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-08-16 18:00:30,747 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-08-16 18:00:31,724 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-08-16 18:00:35,021 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-16 18:00:52,698 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-16 18:00:55,706 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-16 18:00:58,791 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-25 21:26:50,398 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-25 21:26:53,399 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-25 21:27:10,339 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-08-25 21:27:13,625 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-08-25 21:27:26,515 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-08-25 21:27:28,016 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-08-25 21:28:07,847 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-08-25 21:28:54,550 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-08-25 21:28:55,758 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-08-25 21:28:57,663 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-08-25 21:28:58,719 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-08-25 21:29:01,118 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-08-25 21:29:02,511 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-08-25 21:29:04,610 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-08-25 21:29:05,644 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-08-25 21:29:07,677 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-08-25 21:29:11,581 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-25 21:29:27,820 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-25 21:29:30,827 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-25 21:29:32,481 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-26 20:44:26,284 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-26 20:44:29,286 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 20:44:30,701 - event_scraper_log - INFO - Event scraping Corrida job completed successfully.
+2025-08-26 20:44:33,702 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 20:44:33,953 - event_scraper_log - INFO - Event scraping Corrida job completed successfully.
+2025-08-26 20:44:36,884 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-26 20:50:27,804 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-26 20:50:30,809 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 20:50:32,389 - event_scraper_log - INFO - Event scraping Corrida job completed successfully.
+2025-08-26 20:50:35,363 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-26 21:08:40,844 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-26 21:08:43,845 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:08:45,145 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:08:48,147 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:08:48,398 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:08:51,400 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:08:52,045 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:08:55,047 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:08:55,281 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:08:58,283 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:08:58,679 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:09:00,060 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-26 21:10:30,449 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-26 21:10:33,450 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:10:34,780 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:10:37,782 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:10:38,029 - event_scraper_log - ERROR - Error during event scraping job: 'date'
+Traceback (most recent call last):
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\main.py", line 55, in run_event_scraping_job
+    scrape_brasilquecorre_es()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\scraper\event_scraper_corrida.py", line 135, in scrape_brasilquecorre_es
+    save_events_bulk(events_to_save)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\lucia\Documents\Projects\api\eventsjob\database\db_operations.py", line 69, in save_events_bulk
+    "date": event["date"],
+            ~~~~~^^^^^^^^
+KeyError: 'date'
+2025-08-26 21:10:39,821 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-26 21:13:33,768 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-26 21:13:36,769 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-26 21:13:38,199 - event_scraper_log - INFO - Event scraping Corrida job completed successfully.
+2025-08-26 21:13:40,452 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-28 17:29:27,834 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-28 17:29:30,835 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-28 17:29:32,295 - event_scraper_log - INFO - Event scraping Corrida job completed successfully.
+2025-08-28 17:29:49,816 - event_scraper_log - INFO - Event scraping SYMPLA job completed successfully.
+2025-08-28 17:29:56,173 - event_scraper_log - INFO - Event scraping PATRICK RIBEIRO job completed successfully.
+2025-08-28 17:30:10,124 - event_scraper_log - INFO - Event scraping MAPA CULTURAL job completed successfully.
+2025-08-28 17:30:11,446 - event_scraper_log - INFO - Event scraping CRA-ES job completed successfully.
+2025-08-28 17:30:50,638 - event_scraper_log - INFO - Event scraping Beacons events job completed successfully.
+2025-08-28 17:31:44,066 - event_scraper_log - INFO - Event scraping Senac Courses job completed successfully.
+2025-08-28 17:31:44,664 - event_scraper_log - INFO - Event scraping lebillet Domingo Martins job completed successfully.
+2025-08-28 17:31:46,060 - event_scraper_log - INFO - Event scraping lebillet Cariacíca job completed successfully.
+2025-08-28 17:31:46,555 - event_scraper_log - INFO - Event scraping lebillet Guaçuí job completed successfully.
+2025-08-28 17:31:47,363 - event_scraper_log - INFO - Event scraping lebillet Guarapari job completed successfully.
+2025-08-28 17:31:48,137 - event_scraper_log - INFO - Event scraping lebillet Linghares job completed successfully.
+2025-08-28 17:31:49,414 - event_scraper_log - INFO - Event scraping lebillet Serra job completed successfully.
+2025-08-28 17:31:49,952 - event_scraper_log - INFO - Event scraping lebillet Viana job completed successfully.
+2025-08-28 17:31:50,829 - event_scraper_log - INFO - Event scraping lebillet Vila Velha job completed successfully.
+2025-08-28 17:31:54,138 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-28 17:32:12,530 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
+2025-08-28 17:32:14,009 - event_scraper_log - INFO - Scheduler stopped by user.
