@@ -27,7 +27,7 @@ categories = {
     "Gastronomia": [
         "gastronomia", "culinária", "comida", "boteco", "degustação", "vinho", "cozinha", "chef",
         "churrasco", "cerveja", "feira gastronômica", "comer", "boteco", "restaurante", "gastronomic", "gastronomic event", 
-        "gastronomic festival", "botecão"
+        "gastronomic festival", "botecão", "Cafézinho", "Café", "Cafeteria", "Café da manhã", "Brunch", "Almoço", "Jantar", 
     ],
     "Evento Digital ou Online": [
         "podcast", "vídeo", "video", "entrevista", "audiovisual", "rádio", "online", "streaming",
@@ -44,18 +44,20 @@ categories = {
         "comunicação", "gestão", "aprender", "aprenda", "conversa"
     ],
     "Passeios e Tours": [
-        "tour", "passeio", "visita guiada", "excursão", "trilha", "bike tour", "viagem", "esposição", "cidade"
+        "tour", "passeio", "visita guiada", "excursão", "trilha", "bike tour", "viagem", "esposição", 
+        "cidade", "paques", "natureza", "ecoturismo", "cultural", "histórico", "história", "caminhada", 
+        "hiking", "bike tour", "city tour", "walking tour", "Parcão"
     ],
     "Infantil": [
         "infantil", "criança", "kids", "palhaço", "desenho", "brinquedo", "família", "família"
     ],
     "Religião e Espiritualidade": [
         "religião", "espiritualidade", "oração", "retiro", "missa", "evangelho", "culto", "fé",
-        "igreja", "avivação", "meditação", "espiritual", "espírita", "espiritualidade", "retiro espiritual", "frutificar", "culto de louvor", "culto de adoração"
-        "deus", "Deus", "jesus", "jesus cristo", "espírito santo", "santo", "santa ceia", "oração", "oração de cura", "oração de libertação", 
-        "IPB", "igreja", "evangelho", "evangelização", "missão", "missionário", "missionária", "missionários", "missionárias", "evangelista", 
-        "evangelistas", "biblia", "bíblia", "bíblico", "bíblica", "escrituras", "escritura", "sagrado", "sagrada", "sagrado coração de jesus", 
-        "sagrado coração de maria"
+        "igreja", "avivação", "meditação", "espiritual", "espírita", "espiritualidade", "retiro espiritual", "frutificar", "culto de louvor", 
+        "culto de adoração" "deus", "Deus", "jesus", "jesus cristo", "espírito santo", "santo", "santa ceia", "oração", "oração de cura", 
+        "oração de libertação", "IPB", "igreja", "evangelho", "evangelização", "missão", "missionário", "missionária", "missionários", 
+        "missionárias", "evangelista", "evangelistas", "biblia", "bíblia", "bíblico", "bíblica", "escrituras", "escritura", 
+        "sagrado", "sagrada", "sagrado coração de jesus", "sagrado coração de maria"
     ],
     "Pride": [
         "pride", "lgbt", "lgbtqia+", "diversidade", "parada", "orgulho", "inclusão"
@@ -63,11 +65,24 @@ categories = {
     "Saúde e Bem-Estar": [
         "saúde", "bem-estar", "fitness", "meditação", "ioga", "pilates", "nutrição", 
         "autocuidado", "terapia", "psicologia", "psicólogo", "psicóloga", "psicoterapia", "terapia ocupacional", "acupuntura", "massagem", "relaxamento",
-        "meditação guiada", "yoga", "ioga", "pilates",
+        "meditação guiada", "yoga", "ioga", "pilates", "vacinação", "check-up", "exame", 
+        "consultório", "clínica", "clínico", "clínica médica", "clínica de saúde", "clínica de estética", 
+        "feira de saúde", "feira de bem-estar", "feira", "manhã", "lazer", "doação de sangue",
     ],
     "Cultura": [
         "museu", "exposição", "arte", "cultural", "artístico", "galeria", "mostra",
-        "artes", "cultura", "cultural",
+        "artes", "cultura", "cultural", "leitura", "literário", "literária", "livro", "livros", 
+        "lançamento de livro", "feira do livro",
+    ],
+    "Geek": [
+        "game", "gamer", "quadrinho", "anime", "mangá", "cosplay", "nerd", "tecnologia", "tecnológico", "tecnológica",
+        "anime", "mangá", "manga", "hq", "história em quadrinhos", "jogo", "jogos", "videogame", 
+        "videogames", "consoles", "console", "realidade virtual", "realidade aumentada", "vr", 
+        "cosplay", "cosplayer", "cosplayers", "tabletop", "board game", "board games", "card game", "card games", "geek", "nerd", "otaku"
+    ],
+    "cinema": [
+        "cinema", "filme", "movie", "curta", "longa", "documentário", "curta-metragem", "longa-metragem", 
+        "cineasta", "diretor", "atriz", "ator", "roteiro", "produção", 'cine'
     ],
     
 }

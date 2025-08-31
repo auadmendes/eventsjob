@@ -6211,3 +6211,749 @@ KeyError: 'date'
 2025-08-28 17:31:54,138 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
 2025-08-28 17:32:12,530 - event_scraper_log - INFO - Event scraping lebillet Vitória job completed successfully.
 2025-08-28 17:32:14,009 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 15:37:31,880 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 15:37:34,883 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 15:38:34,388 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 15:38:36,691 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 15:55:16,009 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 15:55:19,011 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 15:56:16,502 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 15:56:19,504 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 15:56:22,290 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:10:39,912 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:10:42,915 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:11:01,845 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:12:04,461 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:12:07,462 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:13:05,377 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:13:08,385 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:13:11,160 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:16:22,264 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:16:25,266 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:17:22,772 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:17:23,632 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:30:06,722 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:30:09,725 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:31:06,426 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:31:09,034 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:37:28,885 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:37:31,887 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:38:27,947 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:38:30,949 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:38:33,825 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:48:52,237 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:48:55,239 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:49:52,264 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:49:54,658 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:50:16,488 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:50:19,496 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:51:15,898 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:51:16,740 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:57:21,301 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:57:24,303 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:57:53,343 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 16:58:34,349 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 16:58:37,350 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:59:35,500 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 16:59:38,501 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 16:59:45,051 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-30 17:00:59,235 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-30 17:01:02,237 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-30 17:01:59,544 - event_scraper_log - INFO - Event scraping Sesc ES job completed successfully.
+2025-08-30 17:02:01,114 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:29:44,024 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:29:47,027 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:29:47,080 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:29:50,084 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:29:50,139 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:29:53,141 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:29:53,176 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:29:56,177 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:29:56,234 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:29:57,781 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:31:19,929 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:31:22,930 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:31:22,981 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:31:24,706 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:39:00,280 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:39:03,283 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:03,360 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_shopping_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_vila_velha.py", line 46, in scrape_shopping_vila_velha
+    response = requests.get(events_url, timeout=10)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-08-31 08:39:06,382 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:06,442 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_shopping_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_vila_velha.py", line 46, in scrape_shopping_vila_velha
+    response = requests.get(events_url, timeout=10)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-08-31 08:39:09,456 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:09,511 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_shopping_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_vila_velha.py", line 46, in scrape_shopping_vila_velha
+    response = requests.get(events_url, timeout=10)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-08-31 08:39:12,522 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:12,550 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_shopping_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_vila_velha.py", line 46, in scrape_shopping_vila_velha
+    response = requests.get(events_url, timeout=10)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-08-31 08:39:15,556 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:15,586 - event_scraper_log - ERROR - Error during event scraping job: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_shopping_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_vila_velha.py", line 46, in scrape_shopping_vila_velha
+    response = requests.get(events_url, timeout=10)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.shoppingvilavelha.com.br', port=443): Max retries exceeded with url: /eventos (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-08-31 08:39:18,592 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:39:18,638 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:44:19,702 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:44:22,704 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:44:22,781 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:44:25,782 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:44:25,825 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:44:26,723 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:45:57,422 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:46:00,424 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:46:00,437 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:46:03,278 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:47:36,854 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:47:39,855 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:47:40,546 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:47:43,392 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:48:34,808 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:48:37,810 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:48:38,507 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:48:41,508 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:48:42,181 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:48:44,325 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:53:32,489 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:53:35,491 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:53:36,654 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:53:39,655 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:53:40,909 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:53:43,911 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:53:45,730 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:53:48,731 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:53:49,079 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 08:55:49,710 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 08:55:52,711 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:55:54,231 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:55:57,232 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:55:58,373 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 08:56:01,375 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 08:56:02,496 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:03:59,362 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:04:02,364 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:04:03,685 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:04:06,686 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:04:07,834 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:04:10,835 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:04:12,047 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:04:13,122 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:09:47,439 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:09:50,442 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:10:02,049 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:10:05,050 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:10:16,902 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:10:19,903 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:10:25,848 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:12:51,648 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:12:54,649 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:12:56,168 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:12:59,169 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:13:00,358 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:13:03,359 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:13:04,553 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:13:07,554 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:13:08,772 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:13:09,282 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:14:36,497 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:14:39,498 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:14:40,817 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:14:45,819 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:14:47,217 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:14:52,220 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:14:53,469 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:14:58,471 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:14:59,634 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:15:04,636 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:15:05,824 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:15:10,827 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:15:11,985 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:15:16,214 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:16:03,870 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:16:06,871 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:16:08,082 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:16:13,084 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:16:14,222 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:16:19,223 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:16:20,399 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:16:23,579 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 09:29:02,340 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 09:34:02,388 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 09:34:04,057 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 09:36:29,509 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:06:00,203 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:07:00,217 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:07:01,771 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:08:03,783 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:08:05,086 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:08:43,309 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:12:00,558 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:13:00,567 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:13:01,835 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:13:04,089 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:16:12,772 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:17:12,785 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:17:14,119 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:17:16,020 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:19:42,194 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:20:42,204 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:20:43,452 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:20:47,508 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:23:22,160 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:24:22,175 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:24:23,375 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:24:26,133 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:26:09,331 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:27:09,344 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:27:10,582 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:27:12,471 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:27:47,804 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:28:47,814 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:28:49,576 - event_scraper_log - INFO - Event scraping Shopping Vila Velha job completed successfully.
+2025-08-31 10:28:51,472 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:49:53,031 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:50:53,086 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:50:53,170 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 10:50:59,352 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:52:13,019 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:53:13,030 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:53:13,060 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 10:53:29,164 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:54:22,657 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:55:22,666 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:55:23,130 - event_scraper_log - ERROR - Error during event scraping job: Malformed attribute selector at position 20
+  line 1:
+div.flex.w-max.flex-[0_0_17rem]
+                    ^
+Traceback (most recent call last):
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\main.py", line 47, in run_event_scraping_job
+    scrape_boulevard_vila_velha()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\Luciano.Horta\Documents\Luciano\Projects\jobscheduler\scraper\event_scraper_shopping_boulevard.py", line 46, in scrape_boulevard_vila_velha
+    event_cards = container.select("div.flex.w-max.flex-[0_0_17rem]")  # each event card
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\bs4\element.py", line 2830, in select
+    return self.css.select(selector, namespaces, limit, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\bs4\css.py", line 193, in select
+    self.api.select(
+    ~~~~~~~~~~~~~~~^
+        select, self.tag, self._ns(namespaces, select), limit, flags, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\__init__.py", line 147, in select
+    return compile(select, namespaces, flags, **kwargs).select(tag, limit)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\__init__.py", line 65, in compile
+    return cp._cached_css_compile(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        pattern,
+        ^^^^^^^^
+    ...<2 lines>...
+        flags
+        ^^^^^
+    )
+    ^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\css_parser.py", line 220, in _cached_css_compile
+    ).process_selectors(),
+      ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\css_parser.py", line 1152, in process_selectors
+    return self.parse_selectors(self.selector_iter(self.pattern), index, flags)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\css_parser.py", line 985, in parse_selectors
+    key, m = next(iselector)
+             ~~~~^^^^^^^^^^^
+  File "C:\Users\Luciano.Horta\AppData\Roaming\Python\Python313\site-packages\soupsieve\css_parser.py", line 1145, in selector_iter
+    raise SelectorSyntaxError(msg, self.pattern, index)
+soupsieve.util.SelectorSyntaxError: Malformed attribute selector at position 20
+  line 1:
+div.flex.w-max.flex-[0_0_17rem]
+                    ^
+2025-08-31 10:55:28,923 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 10:56:29,692 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 10:57:29,704 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 10:57:30,112 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 10:57:38,150 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 11:00:37,133 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 11:01:37,249 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 11:01:38,705 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 11:01:40,923 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 11:49:31,152 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 11:50:31,168 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 11:50:32,459 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 11:50:33,969 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 11:58:15,643 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 11:59:15,654 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 11:59:16,015 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 11:59:18,506 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 12:05:59,661 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 12:06:59,674 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 12:07:00,094 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 12:07:01,889 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 12:16:36,652 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 12:17:36,671 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 12:17:37,062 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 12:17:41,639 - event_scraper_log - INFO - Scheduler stopped by user.
+2025-08-31 12:19:50,156 - event_scraper_log - INFO - Event scraper scheduler started. Waiting for next scheduled run.
+2025-08-31 12:20:50,167 - event_scraper_log - INFO - Starting scheduled event scraping job...
+2025-08-31 12:20:50,714 - event_scraper_log - INFO - Event scraping Shopping Boulevard job completed successfully.
+2025-08-31 12:20:53,782 - event_scraper_log - INFO - Scheduler stopped by user.

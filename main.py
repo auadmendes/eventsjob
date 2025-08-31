@@ -19,6 +19,9 @@ from scraper.event_scraper_patrick_ribeiro import scrape_and_save_patrick_events
 from scraper.event_scraper_craes import scrape_craes_events # Assuming you have a separate module for CRA-ES scraping
 from scraper.event_scraper_beacons import scrape_beacons_with_selenium # Assuming you have a separate module for Beacons scraping
 from scraper.event_scraper_corrida import scrape_brasilquecorre_es # Assuming you have a separate module for Corrida scraping
+from scraper.event_scraper_sesc_es import scrape_sesc_es # Assuming you have a separate module for Sesc ES scraping
+from scraper.event_scraper_shopping_vila_velha import scrape_shopping_vila_velha # Assuming you have a separate module for Shopping Vila Velha scraping
+from scraper.event_scraper_shopping_boulevard import scrape_boulevard_vila_velha # Assuming you have a separate module for Shopping Boulevard scraping
 
 from scraper.event_scraper_lebillet import (
     scrape_lebillet_events_domingos_martins,
@@ -40,7 +43,17 @@ logger = setup_logger('event_scraper_log', 'logs/app.log')
 def run_event_scraping_job():
     logger.info("Starting scheduled event scraping job...")
     try:
-       
+
+        scrape_boulevard_vila_velha()
+        logger.info("Event scraping Shopping Boulevard job completed successfully.")
+
+        return
+        scrape_shopping_vila_velha()
+        logger.info("Event scraping Shopping Vila Velha job completed successfully.")
+    
+        scrape_sesc_es()
+        logger.info("Event scraping Sesc ES job completed successfully.")
+
         scrape_brasilquecorre_es()
         logger.info("Event scraping Corrida job completed successfully.")
 
@@ -159,8 +172,8 @@ def run_event_scraping_job():
 
 #schedule.every(48).hours.do(run_event_scraping_job)
 
-#schedule.every(1).minutes.do(run_event_scraping_job)
-schedule.every().seconds.do(run_event_scraping_job)
+schedule.every(1).minutes.do(run_event_scraping_job)
+#schedule.every().seconds.do(run_event_scraping_job)
 
 # For testing, you might use: schedule.every(5).seconds.do(run_event_scraping_job)
 
